@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="D:/IdeaProject/interfaceRestAssured"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.124">
+  <properties />
+  
+  
+            <testcase name="TestGroupLaguage" time="0.002" classname="TestNg.TestGroup" />
+                <testcase name="TestGroupAdd" time="0.116" classname="TestNg.TestGroup" />
+                <testcase name="TestGroupCat" time="0.003" classname="TestNg.TestGroup" />
+                <testcase name="TestGroupAnimal" time="0.003" classname="TestNg.TestGroup" />
+      
+</testsuite>

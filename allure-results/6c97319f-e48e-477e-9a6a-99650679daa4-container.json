@@ -1,0 +1,1 @@
+{"uuid":"6c97319f-e48e-477e-9a6a-99650679daa4","name":"org.wework.TestDepartment","children":["7db9794e-7214-49f0-8e8c-b3b1ff4e9e43"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1606130424183,"stop":1606130424202}],"afters":[],"links":[],"start":1606130424155,"stop":1606130428244}

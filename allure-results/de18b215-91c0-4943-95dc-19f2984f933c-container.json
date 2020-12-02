@@ -1,0 +1,1 @@
+{"uuid":"de18b215-91c0-4943-95dc-19f2984f933c","name":"workweixin.DepartmentTest","children":["94c9c41e-adb6-4c76-a159-34aa8a0bf21e"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1606297869285,"stop":1606297870101}],"afters":[],"links":[],"start":1606297869245,"stop":1606297874068}

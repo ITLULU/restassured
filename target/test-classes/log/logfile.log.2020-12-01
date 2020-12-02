@@ -1,0 +1,252 @@
+2020-12-01 09:10:27 [ main:1470 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:35) response status code -->200
+2020-12-01 09:10:27 [ main:1718 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:41) respon json from API-->{"per_page":6,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://reqres.in/img/faces/1-image.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://reqres.in/img/faces/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://reqres.in/img/faces/3-image.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://reqres.in/img/faces/4-image.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://reqres.in/img/faces/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://reqres.in/img/faces/6-image.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}
+2020-12-01 09:10:27 [ main:1723 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:52) jsonObject:{"Transfer-Encoding":"chunked","Server":"cloudflare","CF-RAY":"5fa8edb23c923a2b-SEA","Access-Control-Allow-Origin":"*","Connection":"keep-alive","Date":"Tue, 01 Dec 2020 01:10:26 GMT","Via":"1.1 vegur","CF-Cache-Status":"HIT","Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"","Cache-Control":"max-age=14400","NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}","Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=a%2FiXFxtNXmBq%2BYw%2FVOMfI9dydBgt7jgebX%2BKdKOyx89Cqhd6TBELcyYkypyLCD%2FHRvXgFaqqvr%2F91F8AC%2Fq5fdRokfnaB2iKqPI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}","Set-Cookie":"__cfduid=d7a054f2d270224474c4212d162bab7621606785026; expires=Thu, 31-Dec-20 01:10:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure","Vary":"Accept-Encoding","Age":"5619","Content-Type":"application/json; charset=utf-8","X-Powered-By":"Express","cf-request-id":"06bd72e35e00003a2bdc9f1000000001","Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""}
+2020-12-01 09:10:27 [ main:1818 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:54) json:{
+  "Transfer-Encoding" : "chunked",
+  "Server" : "cloudflare",
+  "CF-RAY" : "5fa8edb23c923a2b-SEA",
+  "Access-Control-Allow-Origin" : "*",
+  "Connection" : "keep-alive",
+  "Date" : "Tue, 01 Dec 2020 01:10:26 GMT",
+  "Via" : "1.1 vegur",
+  "CF-Cache-Status" : "HIT",
+  "Etag" : "W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+  "Cache-Control" : "max-age=14400",
+  "NEL" : "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+  "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=a%2FiXFxtNXmBq%2BYw%2FVOMfI9dydBgt7jgebX%2BKdKOyx89Cqhd6TBELcyYkypyLCD%2FHRvXgFaqqvr%2F91F8AC%2Fq5fdRokfnaB2iKqPI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+  "Set-Cookie" : "__cfduid=d7a054f2d270224474c4212d162bab7621606785026; expires=Thu, 31-Dec-20 01:10:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+  "Vary" : "Accept-Encoding",
+  "Age" : "5619",
+  "Content-Type" : "application/json; charset=utf-8",
+  "X-Powered-By" : "Express",
+  "cf-request-id" : "06bd72e35e00003a2bdc9f1000000001",
+  "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-12-01 09:10:27 [ main:1819 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:55) jsonString：{
+	"Transfer-Encoding":"chunked",
+	"Server":"cloudflare",
+	"CF-RAY":"5fa8edb23c923a2b-SEA",
+	"Access-Control-Allow-Origin":"*",
+	"Connection":"keep-alive",
+	"Date":"Tue, 01 Dec 2020 01:10:26 GMT",
+	"Via":"1.1 vegur",
+	"CF-Cache-Status":"HIT",
+	"Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+	"Cache-Control":"max-age=14400",
+	"NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+	"Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=a%2FiXFxtNXmBq%2BYw%2FVOMfI9dydBgt7jgebX%2BKdKOyx89Cqhd6TBELcyYkypyLCD%2FHRvXgFaqqvr%2F91F8AC%2Fq5fdRokfnaB2iKqPI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+	"Set-Cookie":"__cfduid=d7a054f2d270224474c4212d162bab7621606785026; expires=Thu, 31-Dec-20 01:10:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+	"Vary":"Accept-Encoding",
+	"Age":"5619",
+	"Content-Type":"application/json; charset=utf-8",
+	"X-Powered-By":"Express",
+	"cf-request-id":"06bd72e35e00003a2bdc9f1000000001",
+	"Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-12-01 09:32:57 [ main:401 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:35) response status code -->400
+2020-12-01 09:32:57 [ main:563 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:41) respon json from API-->null
+2020-12-01 09:32:57 [ main:577 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:52) jsonObject:{"X-Bce-Error-Message":"Signature is invalid: Signature is empty.","content-length":"0","X-Bce-Request-Id":"bff19f50-6f94-4702-96d4-86a6e18131c2","X-Bce-Error-Code":"SignatureEmpty","X-Bce-Exception-Point":"Gateway","X-Bce-Gateway-Region":"BJ","Date":"Tue, 01 Dec 2020 01:32:57 GMT"}
+2020-12-01 09:32:57 [ main:666 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:54) json:{
+  "X-Bce-Error-Message" : "Signature is invalid: Signature is empty.",
+  "content-length" : "0",
+  "X-Bce-Request-Id" : "bff19f50-6f94-4702-96d4-86a6e18131c2",
+  "X-Bce-Error-Code" : "SignatureEmpty",
+  "X-Bce-Exception-Point" : "Gateway",
+  "X-Bce-Gateway-Region" : "BJ",
+  "Date" : "Tue, 01 Dec 2020 01:32:57 GMT"
+}
+2020-12-01 09:32:57 [ main:667 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:55) jsonString：{
+	"X-Bce-Error-Message":"Signature is invalid: Signature is empty.",
+	"content-length":"0",
+	"X-Bce-Request-Id":"bff19f50-6f94-4702-96d4-86a6e18131c2",
+	"X-Bce-Error-Code":"SignatureEmpty",
+	"X-Bce-Exception-Point":"Gateway",
+	"X-Bce-Gateway-Region":"BJ",
+	"Date":"Tue, 01 Dec 2020 01:32:57 GMT"
+}
+2020-12-01 09:42:23 [ main:0 ] - [ INFO ] utils.DataUtilTest.testDateToString(DataUtilTest.java:32) date:2020-12-01
+2020-12-01 09:43:47 [ main:0 ] - [ INFO ] utils.DataUtilTest.testAddDates(DataUtilTest.java:24) date:2020-11-30
+2020-12-01 09:44:43 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:30) date:Sun Dec 29 00:00:00 CST 2019
+2020-12-01 10:10:20 [ main:0 ] - [ INFO ] utils.DataUtilTest.testAddYears(DataUtilTest.java:22) date:Wed Dec 01 10:10:20 CST 2021
+2020-12-01 10:10:56 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-12-01
+2020-12-01 10:12:08 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-12-01
+2020-12-01 10:12:28 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-12-01
+2020-12-01 10:12:43 [ main:0 ] - [ INFO ] utils.DataUtilTest.testDateToString(DataUtilTest.java:40) date:2020-12-01
+2020-12-01 10:14:09 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-14-01
+2020-12-01 10:14:51 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-14-01
+2020-12-01 10:15:28 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-12-01
+2020-12-01 10:17:48 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-12-01
+2020-12-01 10:18:53 [ main:0 ] - [ INFO ] utils.DataUtilTest.testDateToString(DataUtilTest.java:40) date:2020-12-01
+2020-12-01 10:19:12 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:2020-12-01
+2020-12-01 10:19:32 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:Sun Dec 20 00:00:00 CST 2020
+2020-12-01 10:19:51 [ main:0 ] - [ INFO ] utils.DataUtilTest.testStringtoUtilDate(DataUtilTest.java:34) date:Mon Jan 20 00:00:00 CST 2020
+2020-12-01 10:29:35 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:48) uri:http://gwgp-n6uzuwmjrou.n.bdcloudapi.com/weather2/query?id=1111&date=2020-12-01
+2020-12-01 10:29:36 [ main:1314 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:50) null
+2020-12-01 10:31:34 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:48) uri:http://gwgp-n6uzuwmjrou.n.bdcloudapi.com/weather2/query?id=111&date=2020-12-01
+2020-12-01 10:31:35 [ main:1410 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:50) null
+2020-12-01 10:33:27 [ main:1 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:49) uri:http://gwgp-n6uzuwmjrou.n.bdcloudapi.com/weather2/query?cityid=111&date=2020-12-01
+2020-12-01 10:33:28 [ main:1283 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:51) null
+2020-12-01 10:35:50 [ main:270 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:35) response status code -->400
+2020-12-01 10:35:50 [ main:491 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:41) respon json from API-->null
+2020-12-01 10:35:50 [ main:512 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:52) jsonObject:{"X-Bce-Error-Message":"Signature is invalid: Signature is empty.","content-length":"0","X-Bce-Request-Id":"73d31624-f2b4-4be8-9345-f828b5fb3ef2","X-Bce-Error-Code":"SignatureEmpty","X-Bce-Exception-Point":"Gateway","X-Bce-Gateway-Region":"BJ","Date":"Tue, 01 Dec 2020 02:35:50 GMT"}
+2020-12-01 10:35:51 [ main:641 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:54) json:{
+  "X-Bce-Error-Message" : "Signature is invalid: Signature is empty.",
+  "content-length" : "0",
+  "X-Bce-Request-Id" : "73d31624-f2b4-4be8-9345-f828b5fb3ef2",
+  "X-Bce-Error-Code" : "SignatureEmpty",
+  "X-Bce-Exception-Point" : "Gateway",
+  "X-Bce-Gateway-Region" : "BJ",
+  "Date" : "Tue, 01 Dec 2020 02:35:50 GMT"
+}
+2020-12-01 10:35:51 [ main:642 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:55) jsonString：{
+	"X-Bce-Error-Message":"Signature is invalid: Signature is empty.",
+	"content-length":"0",
+	"X-Bce-Request-Id":"73d31624-f2b4-4be8-9345-f828b5fb3ef2",
+	"X-Bce-Error-Code":"SignatureEmpty",
+	"X-Bce-Exception-Point":"Gateway",
+	"X-Bce-Gateway-Region":"BJ",
+	"Date":"Tue, 01 Dec 2020 02:35:50 GMT"
+}
+2020-12-01 11:42:36 [ main:422 ] - [ INFO ] utils.HTTPUtilTest.Testget(HTTPUtilTest.java:38) {
+	"result":"因有人恶意刷接口，导致接口调用频繁，接口已经不能稳定运行，所以计划近期下线，积德吧朋友，如果长期如此，所有接口将面临关闭。",
+	"code":200,
+	"message":"成功!"
+}
+2020-12-01 11:51:12 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestPost(HTTPUtilTest.java:56) jsonString:{"name":"computer","job":"IT"}
+2020-12-01 11:51:14 [ main:2424 ] - [ INFO ] utils.HTTPUtilTest.TestPost(HTTPUtilTest.java:59) {
+	"createdAt":"2020-12-01T03:51:14.288Z",
+	"name":"computer",
+	"id":"162",
+	"job":"IT"
+}
+2020-12-01 11:52:43 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestPost(HTTPUtilTest.java:56) jsonString:{"name":"computer","job":"IT"}
+2020-12-01 11:52:43 [ main:504 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:135) HttpBody:[Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 30,Chunked: false]
+2020-12-01 11:52:43 [ main:504 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:136) method:POST
+2020-12-01 11:52:46 [ main:3022 ] - [ INFO ] utils.HTTPUtilTest.TestPost(HTTPUtilTest.java:59) {
+	"createdAt":"2020-12-01T03:52:45.738Z",
+	"name":"computer",
+	"id":"758",
+	"job":"IT"
+}
+2020-12-01 11:54:01 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:135) HttpBody:[Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 30,Chunked: false]
+2020-12-01 11:54:01 [ main:3 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:136) method:POST
+2020-12-01 11:54:02 [ main:1414 ] - [ INFO ] utils.HTTPUtilTest.TestPost(HTTPUtilTest.java:58) res:HTTP/1.1 201 Created
+2020-12-01 11:54:03 [ main:1511 ] - [ INFO ] utils.HTTPUtilTest.TestPost(HTTPUtilTest.java:60) {
+	"createdAt":"2020-12-01T03:54:02.718Z",
+	"name":"computer",
+	"id":"639",
+	"job":"IT"
+}
+2020-12-01 12:21:43 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:16) 
+2020-12-01 12:22:27 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:16) 
+2020-12-01 12:22:40 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:16) 
+2020-12-01 12:25:04 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:17) file:/D:/IdeaProject/interfaceRestAssured/target/classes/json/login.json
+2020-12-01 12:25:30 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:17) file:/D:/IdeaProject/interfaceRestAssured/target/classes/json/login.json
+2020-12-01 12:25:45 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:16) 
+2020-12-01 12:26:44 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:17) java.io.BufferedInputStream@50a638b5
+2020-12-01 13:06:47 [ main:0 ] - [ INFO ] utils.FileUtilTest.testReadFile(FileUtilTest.java:16) {  "head": {    "zone": "UTC+8",    "appid": "115002",    "sign": "1233456788990098",    "asyn": "N",    "time": "1606794551328",    "tid": "115001202004150128874423489"  },  "body": {    "password": "e10adc3949ba59abbe56e057f20f883e",    "username": "001",    "manageCom": "86"  }}
+2020-12-01 13:19:51 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:194) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 0,Chunked: false]
+2020-12-01 13:20:59 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:194) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 0,Chunked: false]
+2020-12-01 13:20:59 [ main:292 ] - [ INFO ] utils.HTTPUtilTest.TestPostwithJson(HTTPUtilTest.java:122) {
+	"chunked":false,
+	"content":{},
+	"contentLength":115,
+	"contentType":{
+		"buffer":{
+			"empty":false,
+			"full":false
+		},
+		"elements":[{
+			"name":"application/json",
+			"parameterCount":1,
+			"parameters":[{
+				"name":"charset",
+				"value":"utf-8"
+			}]
+		}],
+		"name":"Content-Type",
+		"value":"application/json; charset=utf-8",
+		"valuePos":13
+	},
+	"repeatable":false,
+	"streaming":true
+}
+2020-12-01 13:25:32 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:194) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 0,Chunked: false]
+2020-12-01 13:25:32 [ main:300 ] - [ INFO ] utils.HTTPUtilTest.TestPostwithJson(HTTPUtilTest.java:127) {
+	"chunked":false,
+	"content":{},
+	"contentLength":1106,
+	"contentType":{
+		"buffer":{
+			"empty":false,
+			"full":false
+		},
+		"elements":[{
+			"name":"text/html",
+			"parameterCount":1,
+			"parameters":[{
+				"name":"charset",
+				"value":"utf-8"
+			}]
+		}],
+		"name":"Content-Type",
+		"value":"text/html; charset=utf-8",
+		"valuePos":13
+	},
+	"repeatable":false,
+	"streaming":true
+}
+2020-12-01 13:27:51 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:200) Content-Type:[Lorg.apache.http.Header;@7ea9e1e2
+2020-12-01 13:27:51 [ main:4 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:201) Entity:[Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 12,Chunked: false]
+2020-12-01 13:27:51 [ main:6 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:202) params:org.apache.http.params.BasicHttpParams@4bb33f74
+2020-12-01 13:27:51 [ main:262 ] - [ INFO ] utils.HTTPUtilTest.TestPostwithJson(HTTPUtilTest.java:127) {
+	"chunked":false,
+	"content":{},
+	"contentLength":1106,
+	"contentType":{
+		"buffer":{
+			"empty":false,
+			"full":false
+		},
+		"elements":[{
+			"name":"text/html",
+			"parameterCount":1,
+			"parameters":[{
+				"name":"charset",
+				"value":"utf-8"
+			}]
+		}],
+		"name":"Content-Type",
+		"value":"text/html; charset=utf-8",
+		"valuePos":13
+	},
+	"repeatable":false,
+	"streaming":true
+}
+2020-12-01 14:55:16 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:135) HttpBody:[Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 35,Chunked: false]
+2020-12-01 14:55:16 [ main:4 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:136) method:POST
+2020-12-01 14:55:17 [ main:1683 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(HTTPUtilTest.java:72) respose:ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 78,Chunked: false]}
+2020-12-01 14:55:17 [ main:1778 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(HTTPUtilTest.java:74) {
+	"createdAt":"2020-12-01T06:55:17.502Z",
+	"name":"server",
+	"id":"532",
+	"job":"IT"
+}
+2020-12-01 14:58:15 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:139) HttpBody:[Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 35,Chunked: false]
+2020-12-01 14:58:15 [ main:3 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:140) method:POST
+2020-12-01 14:58:15 [ main:3 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:143) name:Content-Typevalue:application/json
+2020-12-01 14:58:17 [ main:1465 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(HTTPUtilTest.java:71) respose:ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 78,Chunked: false]}
+2020-12-01 14:58:17 [ main:1560 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(HTTPUtilTest.java:73) {
+	"createdAt":"2020-12-01T06:58:17.119Z",
+	"name":"server",
+	"id":"132",
+	"job":"IT"
+}
+2020-12-01 14:59:09 [ main:0 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:139) HttpBody:[Content-Type: text/plain; charset=ISO-8859-1,Content-Length: 35,Chunked: false]
+2020-12-01 14:59:09 [ main:3 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:140) method:POST
+2020-12-01 14:59:09 [ main:3 ] - [ INFO ] utils.HTTPUtil.post(HTTPUtil.java:143) name:Content-Type value:application/json
+2020-12-01 14:59:11 [ main:1502 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(HTTPUtilTest.java:71) respose:ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 51,Chunked: false]}
+2020-12-01 14:59:11 [ main:1620 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(HTTPUtilTest.java:73) {
+	"createdAt":"2020-12-01T06:59:10.952Z",
+	"id":"426"
+}

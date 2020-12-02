@@ -1,0 +1,10 @@
+2020-11-28 15:26:53 [ main:455 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:32) contentType:text/html
+2020-11-28 15:30:22 [ main:427 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:39) contentType:text/html
+2020-11-28 15:30:22 [ main:439 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:40) cookies:{}
+2020-11-28 15:31:02 [ main:421 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:38) contentType:text/html
+2020-11-28 15:31:02 [ main:434 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:39) cookies:{}
+2020-11-28 15:31:02 [ main:434 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:47) Content-Encoding:gzip
+2020-11-28 15:31:02 [ main:437 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:47) Content-Length:1145
+2020-11-28 15:31:02 [ main:437 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:47) Content-Type:text/html
+2020-11-28 15:31:02 [ main:437 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:47) Server:bfe
+2020-11-28 15:31:02 [ main:437 ] - [ INFO ] ContentType.ContentTypeTest.testResponseContentType2(ContentTypeTest.java:47) Date:Sat, 28 Nov 2020 07:31:01 GMT

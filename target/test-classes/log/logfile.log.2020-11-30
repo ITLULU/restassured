@@ -1,0 +1,140 @@
+2020-11-30 10:28:37 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:33) uri:https://reqres.in/api/users?page=2
+2020-11-30 10:28:39 [ main:1953 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:35) {
+	"per_page":6,
+	"total":12,
+	"data":[
+		{
+			"last_name":"Lawson",
+			"id":7,
+			"avatar":"https://reqres.in/img/faces/7-image.jpg",
+			"first_name":"Michael",
+			"email":"michael.lawson@reqres.in"
+		},
+		{
+			"last_name":"Ferguson",
+			"id":8,
+			"avatar":"https://reqres.in/img/faces/8-image.jpg",
+			"first_name":"Lindsay",
+			"email":"lindsay.ferguson@reqres.in"
+		},
+		{
+			"last_name":"Funke",
+			"id":9,
+			"avatar":"https://reqres.in/img/faces/9-image.jpg",
+			"first_name":"Tobias",
+			"email":"tobias.funke@reqres.in"
+		},
+		{
+			"last_name":"Fields",
+			"id":10,
+			"avatar":"https://reqres.in/img/faces/10-image.jpg",
+			"first_name":"Byron",
+			"email":"byron.fields@reqres.in"
+		},
+		{
+			"last_name":"Edwards",
+			"id":11,
+			"avatar":"https://reqres.in/img/faces/11-image.jpg",
+			"first_name":"George",
+			"email":"george.edwards@reqres.in"
+		},
+		{
+			"last_name":"Howell",
+			"id":12,
+			"avatar":"https://reqres.in/img/faces/12-image.jpg",
+			"first_name":"Rachel",
+			"email":"rachel.howell@reqres.in"
+		}
+	],
+	"page":2,
+	"total_pages":2,
+	"support":{
+		"text":"To keep ReqRes free, contributions towards server costs are appreciated!",
+		"url":"https://reqres.in/#support-heading"
+	}
+}
+2020-11-30 11:23:40 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:78) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 11:23:40 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:93) method:post
+2020-11-30 11:26:18 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:74) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 11:26:18 [ main:3 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:79) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 11:26:18 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:94) method:post
+2020-11-30 11:26:18 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:97) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 11:26:18 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:98) query:null
+2020-11-30 11:29:51 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:74) har:de.sstoehr.harreader.model.Har@a267d34c
+2020-11-30 11:29:51 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:79) request:de.sstoehr.harreader.model.HarRequest@4d0de942
+2020-11-30 11:29:51 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:94) method:post
+2020-11-30 11:29:51 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:97) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 11:29:51 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:98) query:null
+2020-11-30 11:29:51 [ main:25 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:74) har:de.sstoehr.harreader.model.Har@a267d34c
+2020-11-30 11:29:51 [ main:25 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:79) request:de.sstoehr.harreader.model.HarRequest@4d0de942
+2020-11-30 11:29:51 [ main:26 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:79) request:de.sstoehr.harreader.model.HarRequest@2f9ffc42
+2020-11-30 11:29:51 [ main:26 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:94) method:post
+2020-11-30 11:29:51 [ main:26 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:97) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=41&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&agentid=1000005&f=json
+2020-11-30 11:29:51 [ main:27 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:98) query:null
+2020-11-30 11:29:51 [ main:45 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:74) har:de.sstoehr.harreader.model.Har@a267d34c
+2020-11-30 11:29:51 [ main:46 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:79) request:de.sstoehr.harreader.model.HarRequest@4d0de942
+2020-11-30 11:29:51 [ main:47 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:79) request:de.sstoehr.harreader.model.HarRequest@2f9ffc42
+2020-11-30 12:42:27 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:74) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:42:27 [ main:3 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:79) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:42:27 [ main:3 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:94) method:post
+2020-11-30 12:42:27 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:97) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 12:42:27 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:98) query:[de.sstoehr.harreader.model.HarQueryParam@6951e8d, de.sstoehr.harreader.model.HarQueryParam@1c8486e, de.sstoehr.harreader.model.HarQueryParam@60da35d]
+2020-11-30 12:43:30 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:75) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:43:30 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:80) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:43:30 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:95) method:post
+2020-11-30 12:43:30 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:98) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 12:45:03 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:76) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:45:03 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:45:03 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:96) method:post
+2020-11-30 12:45:03 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:99) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 12:45:03 [ main:107 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:100) query:[[{"name":"tid","value":"67"},{"name":"access_token","value":"gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q"},{"name":"f","value":"json"}]]
+2020-11-30 12:46:23 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:76) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:46:23 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:46:23 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:96) method:post
+2020-11-30 12:46:23 [ main:6 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:99) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 12:46:23 [ main:125 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:100) query:[[{"name":"tid","value":"67"},{"name":"access_token","value":"gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q"},{"name":"f","value":"json"}]]
+2020-11-30 12:46:23 [ main:126 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:tid  value:67
+2020-11-30 12:46:23 [ main:127 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:access_token  value:gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q
+2020-11-30 12:46:23 [ main:127 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:f  value:json
+2020-11-30 12:46:23 [ main:143 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:76) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:46:23 [ main:143 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:46:23 [ main:144 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@4b894aa0
+2020-11-30 12:46:23 [ main:144 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:96) method:post
+2020-11-30 12:46:23 [ main:144 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:99) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=41&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&agentid=1000005&f=json
+2020-11-30 12:46:23 [ main:145 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:100) query:[[{"name":"tid","value":"41"},{"name":"access_token","value":"gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q"},{"name":"agentid","value":"1000005"},{"name":"f","value":"json"}]]
+2020-11-30 12:46:23 [ main:145 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:tid  value:41
+2020-11-30 12:46:23 [ main:145 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:access_token  value:gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q
+2020-11-30 12:46:23 [ main:146 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:agentid  value:1000005
+2020-11-30 12:46:23 [ main:146 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:f  value:json
+2020-11-30 12:46:23 [ main:161 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:76) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:46:23 [ main:161 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:46:23 [ main:161 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@4b894aa0
+2020-11-30 12:47:56 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:76) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:47:56 [ main:3 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:47:56 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:96) method:post
+2020-11-30 12:47:56 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:99) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 12:47:56 [ main:109 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:100) query:[[{"name":"tid","value":"67"},{"name":"access_token","value":"gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q"},{"name":"f","value":"json"}]]
+2020-11-30 12:47:56 [ main:110 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:tid  value:67
+2020-11-30 12:47:56 [ main:110 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:access_token  value:gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q
+2020-11-30 12:47:56 [ main:110 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:f  value:json
+2020-11-30 12:47:56 [ main:129 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:76) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:47:56 [ main:129 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:47:56 [ main:130 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@4b894aa0
+2020-11-30 12:47:56 [ main:130 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:96) method:post
+2020-11-30 12:47:56 [ main:131 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:99) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=41&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&agentid=1000005&f=json
+2020-11-30 12:47:56 [ main:131 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:100) query:[[{"name":"tid","value":"41"},{"name":"access_token","value":"gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q"},{"name":"agentid","value":"1000005"},{"name":"f","value":"json"}]]
+2020-11-30 12:47:56 [ main:131 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:tid  value:41
+2020-11-30 12:47:56 [ main:132 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:access_token  value:gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q
+2020-11-30 12:47:56 [ main:133 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:agentid  value:1000005
+2020-11-30 12:47:56 [ main:133 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:f  value:json
+2020-11-30 12:48:54 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:76) har:de.sstoehr.harreader.model.Har@4c76e93
+2020-11-30 12:48:54 [ main:4 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:81) request:de.sstoehr.harreader.model.HarRequest@7c5bc439
+2020-11-30 12:48:54 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:96) method:post
+2020-11-30 12:48:54 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:99) url:https://work.weixin.qq.com/api/devtools/devhandler.php?tid=67&access_token=gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q&f=json
+2020-11-30 12:48:54 [ main:97 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:100) query:[[{"name":"tid","value":"67"},{"name":"access_token","value":"gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q"},{"name":"f","value":"json"}]]
+2020-11-30 12:48:54 [ main:98 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:tid  value:67
+2020-11-30 12:48:54 [ main:99 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:access_token  value:gs4n_tfZfSWNnLxtJx_Qsww8tpRN_7fsglgvhencsjNO1uR4mvylY2vfy42sX_Oub1i1rjstiWi3D-bk4qybWhpwPHR9yQ9D-T-huOvRCO0RzLrcetj5foV1wgoXhb6fKm5f8oZa-SH4hbgenoL-FYfEuxvxOaKusrWpNAwl4NSBD_4_l4eDPFysBGTj1HDrvqt57Nij_P-jzT1jFV9v_Q
+2020-11-30 12:48:54 [ main:100 ] - [ INFO ] workweixin.Api.lambda$getApiFromHar$1(Api.java:102) name:f  value:json
+2020-11-30 12:48:54 [ main:351 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:182) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-30 14:29:31 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestCul(restFulTest.java:114) 0
+2020-11-30 15:25:00 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestCul(restFulTest.java:117) 1

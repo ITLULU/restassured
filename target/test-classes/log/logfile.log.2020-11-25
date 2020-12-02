@@ -1,0 +1,124 @@
+2020-11-25 12:45:49 [ main:0 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:11) work.WeworkConfig@f5acb9d
+2020-11-25 12:46:27 [ main:0 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:11) work.WeworkConfig@4fb3ee4e
+2020-11-25 12:46:27 [ main:7 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:12) {dev={qyapi.weixin.qq.com=qyapi.weixin.qq.com}, test={qyapi.weixin.qq.com=140.207.127.79}}
+2020-11-25 12:49:57 [ main:1242 ] - [ INFO ] work.WeWorkTest.TestgetToken(WeWorkTest.java:35) qE4hbCzMPnMGe5tDr-fyG_xRF_LSMKSHElx8f6dlQVJupST-b4kRX6l1rC5x3873v1E1dqas2AA_DvVM_tVWN0Yjq7m-dDIWIPCFTwdLs08nXToU8SZVmODMautiDtSQ-ZFm3uE6j3rVdBD4A4XSNppxU6KGN4I-nggiJWKO0UmHmcw3xZwbdC7aOv2pMOm2LMH3UEklWLRZg_bEwzPLjQ
+2020-11-25 17:16:14 [ main:0 ] - [ INFO ] workweixin.Department.All(Department.java:12) 测试所有
+2020-11-25 17:16:14 [ main:3 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:16:14 [ main:3 ] - [ INFO ] workweixin.Api.getApiFromYaml(Api.java:127) getApiFromYaml----
+2020-11-25 17:17:19 [ main:65502 ] - [ INFO ] workweixin.Department.All(Department.java:12) 测试所有
+2020-11-25 17:17:19 [ main:65503 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:17:19 [ main:65503 ] - [ INFO ] workweixin.Api.getApiFromYaml(Api.java:127) getApiFromYaml----
+2020-11-25 17:23:35 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:26:36 [ main:0 ] - [ INFO ] work.WeworkConfig.main(WeworkConfig.java:49) work.WeworkConfig@1b26f7b2
+2020-11-25 17:26:49 [ main:0 ] - [ INFO ] work.WeworkConfig.main(WeworkConfig.java:49) {dev={qyapi.weixin.qq.com=qyapi.weixin.qq.com}, test={qyapi.weixin.qq.com=140.207.127.79}}
+2020-11-25 17:31:58 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:30) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:31:58 [ main:4 ] - [ INFO ] workweixin.Restful.main(Restful.java:49) Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:32:17 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:30) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:32:17 [ main:4 ] - [ INFO ] workweixin.Restful.main(Restful.java:49) Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:32:36 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:30) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:32:36 [ main:3 ] - [ INFO ] workweixin.Restful.main(Restful.java:49) Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:33:03 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:36:47 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:38:38 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:42:49 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:43:47 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:44:41 [ main:112207 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:44:47 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:44:47 [ main:141 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:48:53 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:48:53 [ main:150 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:48:55 [ main:2533 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:48:55 [ main:2535 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:50:12 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:50:12 [ main:148 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:50:15 [ main:2483 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:50:15 [ main:2487 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:50:15 [ main:2910 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:50:15 [ main:2913 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:10 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:10 [ main:153 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:12 [ main:2678 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:12 [ main:2681 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:13 [ main:3122 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:13 [ main:3124 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:13 [ main:3494 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:13 [ main:3497 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:53 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:53 [ main:138 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:56 [ main:2842 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:56 [ main:2846 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:56 [ main:3391 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:56 [ main:3395 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:51:57 [ main:3704 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:51:57 [ main:3707 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:52:48 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:52:49 [ main:164 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:52:51 [ main:2646 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:52:51 [ main:2649 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:52:52 [ main:3166 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:52:52 [ main:3172 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:52:52 [ main:3595 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:52:52 [ main:3597 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:53:56 [ main:0 ] - [ INFO ] workweixin.Department.All(Department.java:12) 测试所有
+2020-11-25 17:53:56 [ main:4 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:53:56 [ main:145 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:53:59 [ main:2664 ] - [ INFO ] workweixin.DepartmentTest.TestAll(DepartmentTest.java:46) 响应结果：{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}
+2020-11-25 17:54:33 [ main:0 ] - [ INFO ] workweixin.Department.list(Department.java:22) 测试list
+2020-11-25 17:54:33 [ main:143 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 17:54:36 [ main:2831 ] - [ INFO ] workweixin.DepartmentTest.TestList(DepartmentTest.java:51) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606298075_54_5bec1bcd173769b0344fd4a0dd15968b], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011",
+	"department":[]
+}
+2020-11-25 17:57:46 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-25 17:57:49 [ main:2728 ] - [ INFO ] workweixin.DepartmentTest.TestCreat(DepartmentTest.java:66) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606298269_54_f9eba0d8374d1abf2921cab6761a2bdd], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011"
+}
+2020-11-25 17:58:17 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:31) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-25 17:58:20 [ main:2938 ] - [ INFO ] workweixin.DepartmentTest.TestCreat(DepartmentTest.java:66) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606298300_54_89863aac0ade9a196f4df7415ad2c390], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011"
+}
+2020-11-25 18:08:20 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:33) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-25 18:08:22 [ main:1979 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:173) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-25 18:08:23 [ main:2590 ] - [ INFO ] workweixin.DepartmentTest.TestCreat(DepartmentTest.java:66) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606298903_54_e9bc76cb68b21c81a4cb81518e405477], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011"
+}
+2020-11-25 18:09:41 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:33) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-25 18:09:43 [ main:2070 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:173) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-25 18:19:12 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:33) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-25 18:19:14 [ main:2075 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:173) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-25 18:19:15 [ main:2739 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:33) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-25 18:19:15 [ main:2741 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:173) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-25 18:19:15 [ main:3094 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:33) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-25 18:19:15 [ main:3097 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:173) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-25 18:42:29 [ main:0 ] - [ INFO ] work.WeworkConfigTest.getInstance(WeworkConfigTest.java:16) work.WeworkConfig@25fb8912
+2020-11-25 18:51:49 [ main:0 ] - [ INFO ] workweixin.Member.create(Member.java:10) map:{name=sevenriby_1606301509322, mobile=15101509384, department=[1, 2], userid=sevenriby_1606301509322, email=01509384@qq.com}
+2020-11-25 18:51:52 [ main:3132 ] - [ INFO ] workweixin.Member.create(Member.java:10) map:{name=hogwarts_1606301509322, mobile=15101512517, department=[1, 2], userid=hogwarts_1606301509322, email=01512517@qq.com}
+2020-11-25 18:51:52 [ main:3446 ] - [ INFO ] workweixin.Member.create(Member.java:10) map:{name=testerhome_1606301509322, mobile=15101512831, department=[1, 2], userid=testerhome_1606301509322, email=01512831@qq.com}
+2020-11-25 18:52:28 [ main:0 ] - [ INFO ] workweixin.Member.create(Member.java:10) map:{name=sevenriby_1606301548139, mobile=15101548204, department=[1, 2], userid=sevenriby_1606301548139, email=01548204@qq.com}
+2020-11-25 18:52:31 [ main:3218 ] - [ INFO ] workweixin.Member.create(Member.java:10) map:{name=hogwarts_1606301548139, mobile=15101551424, department=[1, 2], userid=hogwarts_1606301548139, email=01551424@qq.com}
+2020-11-25 18:52:31 [ main:3504 ] - [ INFO ] workweixin.Member.create(Member.java:10) map:{name=testerhome_1606301548139, mobile=15101551710, department=[1, 2], userid=testerhome_1606301548139, email=01551710@qq.com}
+2020-11-25 19:12:26 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:33) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 19:12:27 [ main:213 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:173) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-25 19:14:24 [ main:0 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-25 19:14:27 [ main:2181 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:174) 当前环境hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}

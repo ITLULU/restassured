@@ -1,0 +1,91 @@
+2020-11-22 22:30:07 [ main:0 ] - [ DEBUG ] org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161) Get connection for route {s}->https://qyapi.weixin.qq.com:443
+2020-11-22 22:30:07 [ main:82 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177) Connecting to qyapi.weixin.qq.com:443
+2020-11-22 22:30:08 [ main:625 ] - [ DEBUG ] org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123) CookieSpec selected: ignoreCookies
+2020-11-22 22:30:08 [ main:631 ] - [ DEBUG ] org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77) Auth cache not set in the context
+2020-11-22 22:30:08 [ main:635 ] - [ DEBUG ] org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80) Target auth state: UNCHALLENGED
+2020-11-22 22:30:08 [ main:641 ] - [ DEBUG ] org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89) Proxy auth state: UNCHALLENGED
+2020-11-22 22:30:08 [ main:644 ] - [ DEBUG ] org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:682) Attempt 1 to execute request
+2020-11-22 22:30:08 [ main:646 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274) Sending request: GET /cgi-bin/gettoken?corpid=wwb0d6330624cea8bd&corpsecret=gL79RzXuQILJfFtxI9ouN6DJNifQsW3GMOk7dKo8J2s HTTP/1.1
+2020-11-22 22:30:08 [ main:647 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "GET /cgi-bin/gettoken?corpid=wwb0d6330624cea8bd&corpsecret=gL79RzXuQILJfFtxI9ouN6DJNifQsW3GMOk7dKo8J2s HTTP/1.1[\r][\n]"
+2020-11-22 22:30:08 [ main:650 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Accept: */*[\r][\n]"
+2020-11-22 22:30:08 [ main:651 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Host: qyapi.weixin.qq.com[\r][\n]"
+2020-11-22 22:30:08 [ main:653 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Connection: Keep-Alive[\r][\n]"
+2020-11-22 22:30:08 [ main:654 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2020-11-22 22:30:08 [ main:656 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-11-22 22:30:08 [ main:657 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "[\r][\n]"
+2020-11-22 22:30:08 [ main:658 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278) >> GET /cgi-bin/gettoken?corpid=wwb0d6330624cea8bd&corpsecret=gL79RzXuQILJfFtxI9ouN6DJNifQsW3GMOk7dKo8J2s HTTP/1.1
+2020-11-22 22:30:08 [ main:662 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Accept: */*
+2020-11-22 22:30:08 [ main:663 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Host: qyapi.weixin.qq.com
+2020-11-22 22:30:08 [ main:664 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Connection: Keep-Alive
+2020-11-22 22:30:08 [ main:665 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2020-11-22 22:30:08 [ main:666 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Accept-Encoding: gzip,deflate
+2020-11-22 22:30:08 [ main:793 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "HTTP/1.1 200 OK[\r][\n]"
+2020-11-22 22:30:08 [ main:797 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Server: nginx[\r][\n]"
+2020-11-22 22:30:08 [ main:798 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Date: Sun, 22 Nov 2020 14:30:08 GMT[\r][\n]"
+2020-11-22 22:30:08 [ main:799 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-11-22 22:30:08 [ main:799 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Content-Length: 277[\r][\n]"
+2020-11-22 22:30:08 [ main:800 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Connection: keep-alive[\r][\n]"
+2020-11-22 22:30:08 [ main:801 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Error-Code: 0[\r][\n]"
+2020-11-22 22:30:08 [ main:803 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Error-Msg: ok[\r][\n]"
+2020-11-22 22:30:08 [ main:804 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "[\r][\n]"
+2020-11-22 22:30:08 [ main:807 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259) Receiving response: HTTP/1.1 200 OK
+2020-11-22 22:30:08 [ main:808 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262) << HTTP/1.1 200 OK
+2020-11-22 22:30:08 [ main:809 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Server: nginx
+2020-11-22 22:30:08 [ main:810 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Date: Sun, 22 Nov 2020 14:30:08 GMT
+2020-11-22 22:30:08 [ main:812 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Content-Type: application/json; charset=UTF-8
+2020-11-22 22:30:08 [ main:813 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Content-Length: 277
+2020-11-22 22:30:08 [ main:814 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Connection: keep-alive
+2020-11-22 22:30:08 [ main:815 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Error-Code: 0
+2020-11-22 22:30:08 [ main:816 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Error-Msg: ok
+2020-11-22 22:30:08 [ main:823 ] - [ DEBUG ] org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:509) Connection can be kept alive indefinitely
+2020-11-22 22:30:08 [ main:878 ] - [ DEBUG ] io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:544) Parsing response as: application/json; charset=UTF-8
+2020-11-22 22:30:08 [ main:880 ] - [ DEBUG ] io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:547) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-11-22 22:30:08 [ main:988 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:87)  << "{"errcode":0,"errmsg":"ok","access_token":"hT-ZTJP6Un8_p-u3MAs3QJLpZ4httSnc0-VQLNnXiXPYDsG099e4xjgqS6TxF_UXXHfVRIW90L11R6uILnAr2jrpO8WBiRUgMwnLQQNBkoIXY3Zom1WrWpkz7tfHznP5zrAbiqf0r0WapWQPNMO1afc94KzTkqDwh2TuxKN_yl_jOxJ80xyqsTV978noxUVWE14TrnAZKmlDY6Zu8q8nLw","expires_in":7200}"
+2020-11-22 22:30:08 [ main:991 ] - [ DEBUG ] org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:200) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@319bc845
+2020-11-22 22:30:08 [ main:992 ] - [ DEBUG ] org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:225) Connection can be kept alive indefinitely
+2020-11-22 22:30:22 [ main:0 ] - [ DEBUG ] org.apache.http.impl.conn.BasicClientConnectionManager.getConnection(BasicClientConnectionManager.java:161) Get connection for route {s}->https://qyapi.weixin.qq.com:443
+2020-11-22 22:30:22 [ main:33 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177) Connecting to qyapi.weixin.qq.com:443
+2020-11-22 22:30:23 [ main:534 ] - [ DEBUG ] org.apache.http.client.protocol.RequestAddCookies.process(RequestAddCookies.java:123) CookieSpec selected: ignoreCookies
+2020-11-22 22:30:23 [ main:538 ] - [ DEBUG ] org.apache.http.client.protocol.RequestAuthCache.process(RequestAuthCache.java:77) Auth cache not set in the context
+2020-11-22 22:30:23 [ main:539 ] - [ DEBUG ] org.apache.http.client.protocol.RequestTargetAuthentication.process(RequestTargetAuthentication.java:80) Target auth state: UNCHALLENGED
+2020-11-22 22:30:23 [ main:541 ] - [ DEBUG ] org.apache.http.client.protocol.RequestProxyAuthentication.process(RequestProxyAuthentication.java:89) Proxy auth state: UNCHALLENGED
+2020-11-22 22:30:23 [ main:543 ] - [ DEBUG ] org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:682) Attempt 1 to execute request
+2020-11-22 22:30:23 [ main:544 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:274) Sending request: GET /cgi-bin/gettoken?corpid=wwb0d6330624cea8bd&corpsecret=gL79RzXuQILJfFtxI9ouN6DJNifQsW3GMOk7dKo8J2s HTTP/1.1
+2020-11-22 22:30:23 [ main:545 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "GET /cgi-bin/gettoken?corpid=wwb0d6330624cea8bd&corpsecret=gL79RzXuQILJfFtxI9ouN6DJNifQsW3GMOk7dKo8J2s HTTP/1.1[\r][\n]"
+2020-11-22 22:30:23 [ main:547 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Accept: */*[\r][\n]"
+2020-11-22 22:30:23 [ main:548 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Host: qyapi.weixin.qq.com[\r][\n]"
+2020-11-22 22:30:23 [ main:549 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Connection: Keep-Alive[\r][\n]"
+2020-11-22 22:30:23 [ main:550 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2020-11-22 22:30:23 [ main:550 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-11-22 22:30:23 [ main:551 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  >> "[\r][\n]"
+2020-11-22 22:30:23 [ main:551 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:278) >> GET /cgi-bin/gettoken?corpid=wwb0d6330624cea8bd&corpsecret=gL79RzXuQILJfFtxI9ouN6DJNifQsW3GMOk7dKo8J2s HTTP/1.1
+2020-11-22 22:30:23 [ main:553 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Accept: */*
+2020-11-22 22:30:23 [ main:554 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Host: qyapi.weixin.qq.com
+2020-11-22 22:30:23 [ main:554 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Connection: Keep-Alive
+2020-11-22 22:30:23 [ main:555 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2020-11-22 22:30:23 [ main:555 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.sendRequestHeader(DefaultClientConnection.java:281) >> Accept-Encoding: gzip,deflate
+2020-11-22 22:30:23 [ main:662 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "HTTP/1.1 200 OK[\r][\n]"
+2020-11-22 22:30:23 [ main:668 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Server: nginx[\r][\n]"
+2020-11-22 22:30:23 [ main:669 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Date: Sun, 22 Nov 2020 14:30:23 GMT[\r][\n]"
+2020-11-22 22:30:23 [ main:670 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-11-22 22:30:23 [ main:671 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Content-Length: 277[\r][\n]"
+2020-11-22 22:30:23 [ main:673 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Connection: keep-alive[\r][\n]"
+2020-11-22 22:30:23 [ main:674 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Error-Code: 0[\r][\n]"
+2020-11-22 22:30:23 [ main:675 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "Error-Msg: ok[\r][\n]"
+2020-11-22 22:30:23 [ main:675 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:73)  << "[\r][\n]"
+2020-11-22 22:30:23 [ main:678 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:259) Receiving response: HTTP/1.1 200 OK
+2020-11-22 22:30:23 [ main:679 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:262) << HTTP/1.1 200 OK
+2020-11-22 22:30:23 [ main:680 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Server: nginx
+2020-11-22 22:30:23 [ main:680 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Date: Sun, 22 Nov 2020 14:30:23 GMT
+2020-11-22 22:30:23 [ main:681 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Content-Type: application/json; charset=UTF-8
+2020-11-22 22:30:23 [ main:682 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Content-Length: 277
+2020-11-22 22:30:23 [ main:682 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Connection: keep-alive
+2020-11-22 22:30:23 [ main:683 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Error-Code: 0
+2020-11-22 22:30:23 [ main:684 ] - [ DEBUG ] org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:265) << Error-Msg: ok
+2020-11-22 22:30:23 [ main:692 ] - [ DEBUG ] org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:509) Connection can be kept alive indefinitely
+2020-11-22 22:30:23 [ main:725 ] - [ DEBUG ] io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:544) Parsing response as: application/json; charset=UTF-8
+2020-11-22 22:30:23 [ main:726 ] - [ DEBUG ] io.restassured.internal.http.HTTPBuilder.parseResponse(HTTPBuilder.java:547) Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-11-22 22:30:23 [ main:850 ] - [ DEBUG ] org.apache.http.impl.conn.Wire.wire(Wire.java:87)  << "{"errcode":0,"errmsg":"ok","access_token":"hT-ZTJP6Un8_p-u3MAs3QJLpZ4httSnc0-VQLNnXiXPYDsG099e4xjgqS6TxF_UXXHfVRIW90L11R6uILnAr2jrpO8WBiRUgMwnLQQNBkoIXY3Zom1WrWpkz7tfHznP5zrAbiqf0r0WapWQPNMO1afc94KzTkqDwh2TuxKN_yl_jOxJ80xyqsTV978noxUVWE14TrnAZKmlDY6Zu8q8nLw","expires_in":7200}"
+2020-11-22 22:30:23 [ main:854 ] - [ DEBUG ] org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:200) Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4c5474f5
+2020-11-22 22:30:23 [ main:855 ] - [ DEBUG ] org.apache.http.impl.conn.BasicClientConnectionManager.releaseConnection(BasicClientConnectionManager.java:225) Connection can be kept alive indefinitely
+2020-11-22 22:30:24 [ main:1732 ] - [ INFO ] work.WeWorkTest.TestGetToken(TestGetToken.java:28) acces-Token:hT-ZTJP6Un8_p-u3MAs3QJLpZ4httSnc0-VQLNnXiXPYDsG099e4xjgqS6TxF_UXXHfVRIW90L11R6uILnAr2jrpO8WBiRUgMwnLQQNBkoIXY3Zom1WrWpkz7tfHznP5zrAbiqf0r0WapWQPNMO1afc94KzTkqDwh2TuxKN_yl_jOxJ80xyqsTV978noxUVWE14TrnAZKmlDY6Zu8q8nLw

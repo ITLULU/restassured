@@ -1,8 +1,8 @@
-./allure-resilts/
-./dir/
-./test-output/
+allure-resilts/
+dir/
+test-output/
 interfaceRestAssured.iml
-./target/
+target/
 .git
 .idea
-./allure/
+allure/

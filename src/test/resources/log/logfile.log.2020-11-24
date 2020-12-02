@@ -1,0 +1,129 @@
+2020-11-24 12:34:01 [ main:805 ] - [ INFO ] org.wework.TestDepartment.TestCreat(TestDepartment.java:57) result:{
+	"errcode":41001,
+	"errmsg":"access_token missing, hint: [1606192441_81_fd2c06716b5c9c58e55f4831229ccc5f], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=41001"
+}
+2020-11-24 17:09:54 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:34) --- null
+
+2020-11-24 17:10:06 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:34) --- null
+
+2020-11-24 17:10:27 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:34) --- null
+
+2020-11-24 17:12:25 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:34) --- null
+
+2020-11-24 17:25:23 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:35) --- null
+
+2020-11-24 17:30:48 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) ---
+agentId: "1000005"
+secret: "1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY"
+corpId: "wwd6da61649bd66fea"
+contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+current: "dev"
+env: {}
+
+2020-11-24 17:34:13 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:51) ---
+agentId: "1000005"
+secret: "1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY"
+corpId: "wwd6da61649bd66fea"
+contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+current: "dev"
+env:
+  dev: null
+  test: null
+
+2020-11-24 17:34:48 [ main:1 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:51) 
+2020-11-24 17:34:48 [ main:325 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:52) ---
+agentId: "1000005"
+secret: "1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY"
+corpId: "wwd6da61649bd66fea"
+contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+current: "dev"
+env:
+  dev: null
+  test: null
+
+2020-11-24 17:41:34 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) --- null
+
+2020-11-24 17:41:47 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) 
+2020-11-24 17:49:43 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) 
+2020-11-24 17:56:06 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) 
+2020-11-24 17:57:08 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) work.GlobalConfig@42d8062c
+2020-11-24 17:57:33 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) work.GlobalConfig@42d8062c
+2020-11-24 17:57:33 [ main:40 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:48) ---
+weworkConfig:
+  secret: "8KEGhmql2Tj9stLV14mwCCR6POfphQpcOuqYQitrAMo"
+  agentId: "1000004"
+  corpId: "wwd6da61649bd66fea"
+  contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+  username: "seveniruby"
+  password: ""
+  token: ""
+
+2020-11-24 17:58:44 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:48) wwd6da61649bd66fea
+2020-11-24 17:58:44 [ main:41 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:49) ---
+weworkConfig:
+  secret: "8KEGhmql2Tj9stLV14mwCCR6POfphQpcOuqYQitrAMo"
+  agentId: "1000004"
+  corpId: "wwd6da61649bd66fea"
+  contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+  username: "seveniruby"
+  password: ""
+  token: ""
+
+2020-11-24 18:00:43 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) wwd6da61649bd66fea
+2020-11-24 18:00:43 [ main:43 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:48) ---
+weworkConfig:
+  secret: "8KEGhmql2Tj9stLV14mwCCR6POfphQpcOuqYQitrAMo"
+  agentId: "1000004"
+  corpId: "wwd6da61649bd66fea"
+  contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+  username: "seveniruby"
+  password: ""
+  token: ""
+  env:
+    platformName: "android"
+    deviceName: "dddd"
+    appPackage: "com.xueqiu.android"
+    appActivity: ".view.WelcomeActivityAlias"
+    autoGrantPermissions: true
+
+2020-11-24 18:01:25 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) wwd6da61649bd66fea
+2020-11-24 18:01:25 [ main:51 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:48) ---
+weworkConfig:
+  secret: "8KEGhmql2Tj9stLV14mwCCR6POfphQpcOuqYQitrAMo"
+  agentId: "1000004"
+  corpId: "wwd6da61649bd66fea"
+  contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+  username: "seveniruby"
+  password: ""
+  token: ""
+  env:
+    android:
+      platformName: "android"
+      deviceName: "dddd"
+      appPackage: "com.xueqiu.android"
+      appActivity: ".view.WelcomeActivityAlias"
+      autoGrantPermissions: true
+    ios:
+      platformName: "ios"
+      deviceName: "dddd"
+      appPackage: "com.xueqiu.android"
+      appActivity: ".view.WelcomeActivityAlias"
+      autoGrantPermissions: true
+
+2020-11-24 18:03:57 [ main:0 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:47) wwd6da61649bd66fea
+2020-11-24 18:03:57 [ main:48 ] - [ INFO ] work.GlobalConfig.main(GlobalConfig.java:48) ---
+weworkConfig:
+  secret: "8KEGhmql2Tj9stLV14mwCCR6POfphQpcOuqYQitrAMo"
+  agentId: "1000004"
+  corpId: "wwd6da61649bd66fea"
+  contactSecret: "C7uGOrNyxWWzwBsUyWEbLQdOqoWPz4hNvxj9RIFv-4U"
+  username: "seveniruby"
+  password: ""
+  token: ""
+  current: "dev"
+  env:
+    dev:
+      qyapi.weixin.qq.com: "qyapi.weixin.qq.com"
+    test:
+      qyapi.weixin.qq.com: "140.207.127.79"
+

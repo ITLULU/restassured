@@ -1,0 +1,234 @@
+2020-11-23 09:43:01 [ main:1355 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:uOG6FMO3K91mKKkRSbzPNY1dD-QvmMg3vuLvM4jWBg8Ytn02jYlK34Ozpue4q6lXijgZmW-kUt0Rp2LhYfMik1CRIc33fxzE82aGUOfWI8fBCneSq3fcclS9wtLMfzOG6LjXavZy7ZqoVkh0j1EdkiL7Nc8m3dQaDjm7MANKCz9WMRXCCzpzjAtMIhJ3wNzEaOoHcQfvm33snc0DRhNrxw
+2020-11-23 11:24:26 [ main:0 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:testNo
+2020-11-23 11:24:26 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:testdesc
+2020-11-23 11:24:26 [ main:5 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:isRun
+2020-11-23 11:24:26 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:edorCode
+2020-11-23 11:24:26 [ main:8 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:edorApplyCus
+2020-11-23 11:24:26 [ main:8 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:edorAppDate
+2020-11-23 11:24:26 [ main:9 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:appType
+2020-11-23 11:24:26 [ main:10 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:appReason
+2020-11-23 11:24:26 [ main:10 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:isCalInterest
+2020-11-23 11:24:26 [ main:10 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:contInfo
+2020-11-23 11:24:26 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:appntInfo
+2020-11-23 11:24:26 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:insuredInfo
+2020-11-23 11:24:26 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:riskInfo
+2020-11-23 11:24:26 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:result
+2020-11-23 11:24:26 [ main:12 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:result
+2020-11-23 11:24:58 [ main:1 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:testNo
+2020-11-23 11:24:58 [ main:3 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:testdesc
+2020-11-23 11:24:58 [ main:3 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:isRun
+2020-11-23 11:24:58 [ main:3 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:edorCode
+2020-11-23 11:24:58 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:edorApplyCus
+2020-11-23 11:24:58 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:edorAppDate
+2020-11-23 11:24:58 [ main:5 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:appType
+2020-11-23 11:24:58 [ main:5 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:appReason
+2020-11-23 11:24:58 [ main:5 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:isCalInterest
+2020-11-23 11:24:58 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:contInfo
+2020-11-23 11:24:58 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:appntInfo
+2020-11-23 11:24:58 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:insuredInfo
+2020-11-23 11:24:58 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:riskInfo
+2020-11-23 11:24:58 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:result
+2020-11-23 11:24:58 [ main:7 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:157) title:result
+2020-11-23 11:36:01 [ main:0 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:testNo(案例编号)
+2020-11-23 11:36:01 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:testdesc(测试角度)
+2020-11-23 11:36:01 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:isRun(是否运行)
+2020-11-23 11:36:01 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:edorCode(保全项)
+2020-11-23 11:36:01 [ main:7 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:edorApplyCus(申请人类型)
+2020-11-23 11:36:01 [ main:8 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:edorAppDate(保全申请日期)
+2020-11-23 11:36:01 [ main:9 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:appType(申请方式)
+2020-11-23 11:36:01 [ main:10 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:appReason(申请原因)
+2020-11-23 11:36:01 [ main:10 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:isCalInterest(利息计算方式)
+2020-11-23 11:36:01 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:contInfo(保单信息)
+2020-11-23 11:36:01 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:appntInfo(投保人信息)
+2020-11-23 11:36:01 [ main:12 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:insuredInfo(被保人信息)
+2020-11-23 11:36:01 [ main:12 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:riskInfo(险种信息)
+2020-11-23 11:36:01 [ main:13 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:result(结果)
+2020-11-23 11:36:01 [ main:14 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:169) cellValue:result(结果)Sit环境 总计：126 26单通过  100无保单号
+2020-11-23 11:43:33 [ main:0 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:testNo
+2020-11-23 11:43:33 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:testdesc
+2020-11-23 11:43:33 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:isRun
+2020-11-23 11:43:33 [ main:6 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:edorCode
+2020-11-23 11:43:33 [ main:7 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:edorApplyCus
+2020-11-23 11:43:33 [ main:7 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:edorAppDate
+2020-11-23 11:43:33 [ main:8 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:appType
+2020-11-23 11:43:33 [ main:9 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:appReason
+2020-11-23 11:43:33 [ main:10 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:isCalInterest
+2020-11-23 11:43:33 [ main:10 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:contInfo
+2020-11-23 11:43:33 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:appntInfo
+2020-11-23 11:43:33 [ main:11 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:insuredInfo
+2020-11-23 11:43:33 [ main:12 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:riskInfo
+2020-11-23 11:43:33 [ main:12 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:result
+2020-11-23 11:43:33 [ main:13 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:170) cellValue:result
+2020-11-23 11:45:14 [ main:0 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlenametestNo
+2020-11-23 11:47:41 [ main:0 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testNo
+2020-11-23 11:47:41 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:0
+2020-11-23 11:47:41 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex0
+2020-11-23 11:47:41 [ main:13 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testdesc
+2020-11-23 11:47:41 [ main:14 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:1
+2020-11-23 11:47:41 [ main:14 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex1
+2020-11-23 11:47:41 [ main:15 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:result
+2020-11-23 11:47:41 [ main:16 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:14
+2020-11-23 11:47:41 [ main:16 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex14
+2020-11-23 11:47:41 [ main:17 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testNo
+2020-11-23 11:47:41 [ main:17 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:0
+2020-11-23 11:47:41 [ main:18 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex0
+2020-11-23 11:47:41 [ main:82 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testdesc
+2020-11-23 11:47:41 [ main:82 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:1
+2020-11-23 11:47:41 [ main:82 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex1
+2020-11-23 11:47:41 [ main:83 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:result
+2020-11-23 11:47:41 [ main:84 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:14
+2020-11-23 11:47:41 [ main:84 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex14
+2020-11-23 11:47:41 [ main:85 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testNo
+2020-11-23 11:47:41 [ main:85 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:0
+2020-11-23 11:47:41 [ main:85 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex0
+2020-11-23 11:47:41 [ main:87 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testdesc
+2020-11-23 11:47:41 [ main:87 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:1
+2020-11-23 11:47:41 [ main:87 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex1
+2020-11-23 11:47:41 [ main:88 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:result
+2020-11-23 11:47:41 [ main:88 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:14
+2020-11-23 11:47:41 [ main:88 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex14
+2020-11-23 12:22:16 [ main:0 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testNo
+2020-11-23 12:22:16 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:0
+2020-11-23 12:22:16 [ main:4 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex0
+2020-11-23 12:22:16 [ main:19 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testdesc
+2020-11-23 12:22:16 [ main:19 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:1
+2020-11-23 12:22:16 [ main:20 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex1
+2020-11-23 12:22:16 [ main:21 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:result
+2020-11-23 12:22:16 [ main:21 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:14
+2020-11-23 12:22:16 [ main:22 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex14
+2020-11-23 12:22:16 [ main:22 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testNo
+2020-11-23 12:22:16 [ main:22 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:0
+2020-11-23 12:22:16 [ main:23 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex0
+2020-11-23 12:22:16 [ main:78 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testdesc
+2020-11-23 12:22:16 [ main:79 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:1
+2020-11-23 12:22:16 [ main:79 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex1
+2020-11-23 12:22:16 [ main:80 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:result
+2020-11-23 12:22:16 [ main:82 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:14
+2020-11-23 12:22:16 [ main:82 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex14
+2020-11-23 12:22:16 [ main:82 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testNo
+2020-11-23 12:22:16 [ main:83 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:0
+2020-11-23 12:22:16 [ main:84 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex0
+2020-11-23 12:22:16 [ main:85 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:testdesc
+2020-11-23 12:22:16 [ main:86 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:1
+2020-11-23 12:22:16 [ main:86 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex1
+2020-11-23 12:22:16 [ main:86 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:178) titlename:result
+2020-11-23 12:22:16 [ main:87 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:179) colNum:14
+2020-11-23 12:22:16 [ main:87 ] - [ INFO ] utils.ExcelUtil.ReadExcelTo(ExcelUtil.java:181) ColIndex14
+2020-11-23 15:43:12 [ main:1298 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 15:45:38 [ main:1185 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:02:04 [ main:1143 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:07:05 [ pool-1-thread-1:1104 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:09:19 [ main:1274 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:11:08 [ main:1386 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:14:50 [ main:1279 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:15:57 [ pool-1-thread-1:1073 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:24:21 [ pool-1-thread-1:1330 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:26:33 [ pool-1-thread-1:1577 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:33:06 [ pool-1-thread-1:1486 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:34:24 [ pool-1-thread-1:1641 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:45:52 [ pool-1-thread-1:1504 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:47:51 [ pool-1-thread-1:1469 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:28) acces-Token:null
+2020-11-23 16:51:28 [ pool-1-thread-1:2531 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:30) acces-Token:null
+2020-11-23 16:55:06 [ pool-1-thread-1:2352 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:30) acces-Token:null
+2020-11-23 17:10:23 [ main:0 ] - [ INFO ] work.Wework.main(Wework.java:34) 1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY
+2020-11-23 17:10:23 [ main:10 ] - [ INFO ] work.Wework.getWeworkToken(Wework.java:16) corpid:"wwd6da61649bd66fea"corpsecret "1JPyY9GvPLZfpvxEDjok-Xt_9v7HIBYJhZUoO6EgNGY"
+2020-11-23 17:16:32 [ main:1169 ] - [ INFO ] org.wework.TestGetToken.testToken(TestGetToken.java:25) token:-XVsy5h4T71a6aEvOpTvEkWqCg1so6kd0LGgq3djQMx_grPdHRD2-NxJHjaduB9RZaLhPs2B88k8rFZszc8sWrPbECyr1K-C37o-6CjNgflOSSuRNIXLODs7VSWqMj3XHaWWXZ46M9uefTPTtm1CBfiZ7NZpTh3SsBnQSJ9fe_5pn-N6Jdt20tfJOLU0ZmWSXjjGc01HSGfVd_fltdjXyQ
+2020-11-23 17:21:45 [ main:1142 ] - [ INFO ] work.Wework.main(Wework.java:28) token:null
+2020-11-23 17:24:21 [ main:1139 ] - [ INFO ] work.Wework.main(Wework.java:28) token:null
+2020-11-23 17:26:19 [ main:1073 ] - [ INFO ] work.Wework.getWeworkToken(Wework.java:17) token:null
+2020-11-23 17:26:19 [ main:1124 ] - [ INFO ] work.Wework.main(Wework.java:29) token:null
+2020-11-23 17:29:32 [ main:1091 ] - [ INFO ] work.Wework.getWeworkToken(Wework.java:16) token:-XVsy5h4T71a6aEvOpTvEkWqCg1so6kd0LGgq3djQMx_grPdHRD2-NxJHjaduB9RZaLhPs2B88k8rFZszc8sWrPbECyr1K-C37o-6CjNgflOSSuRNIXLODs7VSWqMj3XHaWWXZ46M9uefTPTtm1CBfiZ7NZpTh3SsBnQSJ9fe_5pn-N6Jdt20tfJOLU0ZmWSXjjGc01HSGfVd_fltdjXyQ
+2020-11-23 17:29:32 [ main:1147 ] - [ INFO ] work.Wework.main(Wework.java:28) token:-XVsy5h4T71a6aEvOpTvEkWqCg1so6kd0LGgq3djQMx_grPdHRD2-NxJHjaduB9RZaLhPs2B88k8rFZszc8sWrPbECyr1K-C37o-6CjNgflOSSuRNIXLODs7VSWqMj3XHaWWXZ46M9uefTPTtm1CBfiZ7NZpTh3SsBnQSJ9fe_5pn-N6Jdt20tfJOLU0ZmWSXjjGc01HSGfVd_fltdjXyQ
+2020-11-23 17:31:30 [ main:1202 ] - [ INFO ] org.wework.TestGetToken.TestGetToken(TestGetToken.java:30) acces-Token:-XVsy5h4T71a6aEvOpTvEkWqCg1so6kd0LGgq3djQMx_grPdHRD2-NxJHjaduB9RZaLhPs2B88k8rFZszc8sWrPbECyr1K-C37o-6CjNgflOSSuRNIXLODs7VSWqMj3XHaWWXZ46M9uefTPTtm1CBfiZ7NZpTh3SsBnQSJ9fe_5pn-N6Jdt20tfJOLU0ZmWSXjjGc01HSGfVd_fltdjXyQ
+2020-11-23 18:15:20 [ main:1451 ] - [ INFO ] org.wework.TestDepartment.TestAll(TestDepartment.java:22) io.restassured.internal.RestAssuredResponseImpl@57f791c6
+2020-11-23 18:45:54 [ main:1863 ] - [ INFO ] org.wework.TestDepartment.TestAll(TestDepartment.java:26) 响应结果：{"errcode":0,"errmsg":"ok","department":[{"name":"testhome1234","id":33,"parentid":1,"order":100160000},{"name":"ningningCenterdd","id":39,"parentid":33,"order":0}]}
+2020-11-23 18:56:14 [ main:1779 ] - [ INFO ] org.wework.TestDepartment.TestAll(TestDepartment.java:33) 响应结果：{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}
+2020-11-23 19:03:41 [ main:0 ] - [ INFO ] org.wework.TestDepartment.TestFilePAth(TestDepartment.java:37) {
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+2020-11-23 19:18:47 [ main:1611 ] - [ INFO ] org.wework.TestDepartment.TestList(TestDepartment.java:51) result:{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}
+2020-11-23 19:19:20 [ main:1648 ] - [ INFO ] org.wework.TestDepartment.TestList(TestDepartment.java:51) result:{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}
+2020-11-23 19:20:27 [ main:1503 ] - [ INFO ] org.wework.TestDepartment.TestList(TestDepartment.java:51) result:{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}

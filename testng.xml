@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProject/interfaceRestAssured">
+        <classes>
+            <class name="devtols.AppTest">
+                <methods>
+                    <include name="listApp"/>
+                </methods>
+            </class>
+            <class name="utils.HTTPUtilTest">
+                <methods>
+                    <include name="TestgetDefault"/>
+                    <include name="Testget"/>
+                    <include name="TestPost"/>
+                    <include name="TestPostMap"/>
+                    <include name="TestPut"/>
+                    <include name="deleteApiTest"/>
+                </methods>
+            </class>
+            <class name="work.WeWorkTest">
+                <methods>
+                    <include name="testToken"/>
+                    <include name="TestGetToken"/>
+                    <include name="TestgetToken"/>
+                </methods>
+            </class>
+            <class name="work.WeworkConfigTest">
+                <methods>
+                    <include name="TestLoad"/>
+                    <include name="getInstance"/>
+                </methods>
+            </class>
+            <class name="work.getTokenTest">
+                <methods>
+                    <include name="testToken"/>
+                    <include name="createDepartment"/>
+                </methods>
+            </class>
+            <class name="workweixin.ApiTest">
+                <methods>
+                    <include name="templateFromYaml"/>
+                    <include name="request"/>
+                    <include name="resource"/>
+                    <include name="getApiFromHar"/>
+                    <include name="matches"/>
+                    <include name="getResponseFromHar"/>
+                    <include name="mustache"/>
+                </methods>
+            </class>
+            <class name="workweixin.DepartmentTest">
+                <methods>
+                    <include name="TestFilePAth"/>
+                    <include name="TestAll"/>
+                    <include name="TestList"/>
+                    <include name="list"/>
+                    <include name="TestCreat"/>
+                    <include name="createByMap"/>
+                    <include name="createWithChinese"/>
+                    <include name="createWithCSV"/>
+                    <include name="delete"/>
+                    <include name="update"/>
+                    <include name="updateAll"/>
+                    <include name="deleteAll"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="report.ExtentReport"></listener>
+    </listeners>
+    <!--   这是reportNG的监听类
+    <listeners>
+         <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+     </listeners> -->
+</suite>

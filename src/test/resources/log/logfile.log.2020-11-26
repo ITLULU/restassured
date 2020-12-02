@@ -1,0 +1,820 @@
+2020-11-26 11:28:57 [ main:1187 ] - [ INFO ] utils.RestClient.get(RestClient.java:29) response status code -->200
+2020-11-26 11:28:57 [ main:1281 ] - [ INFO ] utils.RestClient.get(RestClient.java:35) respon json from API-->{"per_page":6,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://reqres.in/img/faces/1-image.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://reqres.in/img/faces/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://reqres.in/img/faces/3-image.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://reqres.in/img/faces/4-image.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://reqres.in/img/faces/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://reqres.in/img/faces/6-image.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}
+2020-11-26 11:36:19 [ main:1361 ] - [ INFO ] utils.RestClient.get(RestClient.java:29) response status code -->200
+2020-11-26 11:36:19 [ main:1472 ] - [ INFO ] utils.RestClient.get(RestClient.java:35) respon json from API-->{"per_page":6,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://reqres.in/img/faces/1-image.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://reqres.in/img/faces/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://reqres.in/img/faces/3-image.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://reqres.in/img/faces/4-image.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://reqres.in/img/faces/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://reqres.in/img/faces/6-image.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}
+2020-11-26 11:36:19 [ main:1703 ] - [ INFO ] utils.RestClient.get(RestClient.java:46) jsonObject:{"Transfer-Encoding":"chunked","Server":"cloudflare","CF-RAY":"5f809081cee4ed3b-SJC","Access-Control-Allow-Origin":"*","Connection":"keep-alive","Date":"Thu, 26 Nov 2020 03:36:19 GMT","Via":"1.1 vegur","CF-Cache-Status":"HIT","Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"","Cache-Control":"max-age=14400","NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}","Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=1ewOZELFPBzUSMDPLUrBEsaW%2FdGuXCeJtvt6Nbzrk3bjdJRLgyJbTPM9uDE5jNT5s9GfDpHjb75lak74ivfQ20r0sNqddHf0qKc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}","Set-Cookie":"__cfduid=dae5067b90e3343687ee4658caaa0254f1606361779; expires=Sat, 26-Dec-20 03:36:19 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure","Vary":"Accept-Encoding","Age":"7158","Content-Type":"application/json; charset=utf-8","X-Powered-By":"Express","cf-request-id":"06a438a5180000ed3b95a40000000001","Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""}
+2020-11-26 11:36:20 [ main:1760 ] - [ INFO ] utils.RestClient.get(RestClient.java:48) json:{
+  "Transfer-Encoding" : "chunked",
+  "Server" : "cloudflare",
+  "CF-RAY" : "5f809081cee4ed3b-SJC",
+  "Access-Control-Allow-Origin" : "*",
+  "Connection" : "keep-alive",
+  "Date" : "Thu, 26 Nov 2020 03:36:19 GMT",
+  "Via" : "1.1 vegur",
+  "CF-Cache-Status" : "HIT",
+  "Etag" : "W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+  "Cache-Control" : "max-age=14400",
+  "NEL" : "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+  "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=1ewOZELFPBzUSMDPLUrBEsaW%2FdGuXCeJtvt6Nbzrk3bjdJRLgyJbTPM9uDE5jNT5s9GfDpHjb75lak74ivfQ20r0sNqddHf0qKc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+  "Set-Cookie" : "__cfduid=dae5067b90e3343687ee4658caaa0254f1606361779; expires=Sat, 26-Dec-20 03:36:19 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+  "Vary" : "Accept-Encoding",
+  "Age" : "7158",
+  "Content-Type" : "application/json; charset=utf-8",
+  "X-Powered-By" : "Express",
+  "cf-request-id" : "06a438a5180000ed3b95a40000000001",
+  "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 11:36:20 [ main:1760 ] - [ INFO ] utils.RestClient.get(RestClient.java:49) jsonString：{
+	"Transfer-Encoding":"chunked",
+	"Server":"cloudflare",
+	"CF-RAY":"5f809081cee4ed3b-SJC",
+	"Access-Control-Allow-Origin":"*",
+	"Connection":"keep-alive",
+	"Date":"Thu, 26 Nov 2020 03:36:19 GMT",
+	"Via":"1.1 vegur",
+	"CF-Cache-Status":"HIT",
+	"Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+	"Cache-Control":"max-age=14400",
+	"NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+	"Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=1ewOZELFPBzUSMDPLUrBEsaW%2FdGuXCeJtvt6Nbzrk3bjdJRLgyJbTPM9uDE5jNT5s9GfDpHjb75lak74ivfQ20r0sNqddHf0qKc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+	"Set-Cookie":"__cfduid=dae5067b90e3343687ee4658caaa0254f1606361779; expires=Sat, 26-Dec-20 03:36:19 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+	"Vary":"Accept-Encoding",
+	"Age":"7158",
+	"Content-Type":"application/json; charset=utf-8",
+	"X-Powered-By":"Express",
+	"cf-request-id":"06a438a5180000ed3b95a40000000001",
+	"Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 16:20:20 [ main:0 ] - [ INFO ] utils.RestClient.main(RestClient.java:175) uri:https://reqres.in/api/users?page=2
+2020-11-26 16:21:08 [ main:0 ] - [ INFO ] utils.RestClient.main(RestClient.java:175) uri:https://reqres.in/api/users?page=2
+2020-11-26 16:22:12 [ main:0 ] - [ INFO ] utils.RestClient.main(RestClient.java:175) uri:https://reqres.in/api/users?page=2
+2020-11-26 16:22:15 [ main:2596 ] - [ INFO ] utils.RestClient.main(RestClient.java:176) HttpResponseProxy{HTTP/1.1 200 OK [Date: Thu, 26 Nov 2020 08:22:15 GMT, Content-Type: application/json; charset=utf-8, Transfer-Encoding: chunked, Connection: keep-alive, Set-Cookie: __cfduid=df3270b15e38497866406f602bddff3531606378935; expires=Sat, 26-Dec-20 08:22:15 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure, X-Powered-By: Express, Access-Control-Allow-Origin: *, Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw", Via: 1.1 vegur, Cache-Control: max-age=14400, CF-Cache-Status: HIT, Age: 2958, cf-request-id: 06a53e6bfd00003a08090f8000000001, Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct", Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=bkQ%2BFyWgQetcAQspbzNYzT3A17b7soV0CVV6tJWqZhN174vF0X2Da0Cnwsv9ESBzDfyvI%2B7yzEsHBgR%2F9thWgvaGwaQRSFpMV9Q%3D"}],"group":"cf-nel","max_age":604800}, NEL: {"report_to":"cf-nel","max_age":604800}, Vary: Accept-Encoding, Server: cloudflare, CF-RAY: 5f823359980d3a08-SEA] org.apache.http.client.entity.GzipDecompressingEntity@3e3047e6}
+2020-11-26 17:57:09 [ main:0 ] - [ INFO ] utils.RestClient.main(RestClient.java:175) uri:https://reqres.in/api/users?page=2
+2020-11-26 17:57:12 [ main:2663 ] - [ INFO ] utils.RestClient.main(RestClient.java:177) {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://reqres.in/img/faces/7-image.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://reqres.in/img/faces/8-image.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://reqres.in/img/faces/9-image.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://reqres.in/img/faces/10-image.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://reqres.in/img/faces/11-image.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://reqres.in/img/faces/12-image.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}
+2020-11-26 17:58:19 [ main:0 ] - [ INFO ] utils.RestClient.main(RestClient.java:175) uri:https://reqres.in/api/users?page=2
+2020-11-26 17:58:22 [ main:2499 ] - [ INFO ] utils.RestClient.main(RestClient.java:177) {
+	"per_page":6,
+	"total":12,
+	"data":[
+		{
+			"last_name":"Lawson",
+			"id":7,
+			"avatar":"https://reqres.in/img/faces/7-image.jpg",
+			"first_name":"Michael",
+			"email":"michael.lawson@reqres.in"
+		},
+		{
+			"last_name":"Ferguson",
+			"id":8,
+			"avatar":"https://reqres.in/img/faces/8-image.jpg",
+			"first_name":"Lindsay",
+			"email":"lindsay.ferguson@reqres.in"
+		},
+		{
+			"last_name":"Funke",
+			"id":9,
+			"avatar":"https://reqres.in/img/faces/9-image.jpg",
+			"first_name":"Tobias",
+			"email":"tobias.funke@reqres.in"
+		},
+		{
+			"last_name":"Fields",
+			"id":10,
+			"avatar":"https://reqres.in/img/faces/10-image.jpg",
+			"first_name":"Byron",
+			"email":"byron.fields@reqres.in"
+		},
+		{
+			"last_name":"Edwards",
+			"id":11,
+			"avatar":"https://reqres.in/img/faces/11-image.jpg",
+			"first_name":"George",
+			"email":"george.edwards@reqres.in"
+		},
+		{
+			"last_name":"Howell",
+			"id":12,
+			"avatar":"https://reqres.in/img/faces/12-image.jpg",
+			"first_name":"Rachel",
+			"email":"rachel.howell@reqres.in"
+		}
+	],
+	"page":2,
+	"total_pages":2,
+	"support":{
+		"text":"To keep ReqRes free, contributions towards server costs are appreciated!",
+		"url":"https://reqres.in/#support-heading"
+	}
+}
+2020-11-26 18:32:14 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:49) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 18:33:14 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:49) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 18:33:16 [ main:1943 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:52) {
+	"createdAt":"2020-11-26T10:33:15.811Z",
+	"name":"computer",
+	"id":"917",
+	"job":"IT"
+}
+2020-11-26 18:37:26 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:84) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 18:37:29 [ main:2564 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:87) {
+	"createdAt":"2020-11-26T10:37:28.923Z",
+	"name":"computer",
+	"id":"100",
+	"job":"IT"
+}
+2020-11-26 18:38:01 [ main:0 ] - [ INFO ] utils.RestClient.post(RestClient.java:139) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 20,Chunked: false]
+2020-11-26 18:38:03 [ main:1669 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:67) respose:ResponseEntityProxy{[Content-Type: text/html; charset=utf-8,Chunked: true]}
+2020-11-26 18:40:01 [ main:0 ] - [ INFO ] utils.RestClient.post(RestClient.java:135) name:computer
+2020-11-26 18:40:01 [ main:5 ] - [ INFO ] utils.RestClient.post(RestClient.java:135) job:IT
+2020-11-26 18:40:01 [ main:14 ] - [ INFO ] utils.RestClient.post(RestClient.java:140) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 20,Chunked: false]
+2020-11-26 18:40:02 [ main:1590 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:67) respose:ResponseEntityProxy{[Content-Type: text/html; charset=utf-8,Chunked: true]}
+2020-11-26 18:43:47 [ main:0 ] - [ INFO ] utils.RestClient.post(RestClient.java:135) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 0,Chunked: false]
+2020-11-26 18:43:49 [ main:1548 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:67) respose:ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 80,Chunked: false]}
+2020-11-26 18:43:49 [ main:1644 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:69) {
+	"createdAt":"2020-11-26T10:43:49.086Z",
+	"name":"computer",
+	"id":"299",
+	"job":"IT"
+}
+2020-11-26 19:01:23 [ main:1696 ] - [ INFO ] utils.HTTPUtilTest.deleteApiTest(restFulTest.java:107) statusCode:204
+2020-11-26 19:09:35 [ main:0 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:88) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 19:20:21 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:77) request:de.sstoehr.harreader.model.HarRequest@b00088ce
+2020-11-26 19:20:21 [ main:5 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:92) method:post
+2020-11-26 19:20:24 [ main:3000 ] - [ INFO ] workweixin.DepartmentTest.TestFilePAth(DepartmentTest.java:41) {
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+2020-11-26 19:20:24 [ main:3077 ] - [ INFO ] workweixin.Department.All(Department.java:12) ��������
+2020-11-26 19:20:24 [ main:3079 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:24 [ main:3087 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:24 [ main:3107 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:25 [ main:4283 ] - [ INFO ] workweixin.DepartmentTest.TestAll(DepartmentTest.java:50) ��Ӧ�����{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}
+2020-11-26 19:20:25 [ main:4328 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:25 [ main:4337 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:25 [ main:4362 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:26 [ main:5450 ] - [ INFO ] workweixin.DepartmentTest.TestList(DepartmentTest.java:55) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606389626_54_05d00168c63888b5c46c97b2318e43ce], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011",
+	"department":[]
+}
+2020-11-26 19:20:27 [ main:5612 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:27 [ main:5624 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:27 [ main:5724 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:28 [ main:6856 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:28 [ main:6861 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:28 [ main:6868 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:29 [ main:7941 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:29 [ main:7945 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:29 [ main:7952 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:30 [ main:8924 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:30 [ main:8928 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:30 [ main:8935 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:31 [ main:9966 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:31 [ main:10049 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:32 [ main:11168 ] - [ INFO ] workweixin.DepartmentTest.TestCreat(DepartmentTest.java:70) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606389632_54_033a0c4312e6827fe51951306d49026a], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011"
+}
+2020-11-26 19:20:32 [ main:11218 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:32 [ main:11280 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:33 [ main:12259 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:33 [ main:12306 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:34 [ main:13340 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:34 [ main:13383 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:35 [ main:14584 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:36 [ main:14638 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:37 [ main:15792 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:37 [ main:15815 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:38 [ main:16880 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:38 [ main:17016 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:39 [ main:18105 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:39 [ main:18145 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:39 [ main:18161 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:40 [ main:19589 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:41 [ main:19620 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:42 [ main:20800 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:42 [ main:20890 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:43 [ main:21937 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:43 [ main:21942 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:43 [ main:21948 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:44 [ main:23036 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/update', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:20:44 [ main:23056 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:45 [ main:24099 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:20:45 [ main:24103 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:45 [ main:24109 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:46 [ main:25291 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:46 [ main:25297 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:47 [ main:26367 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:20:47 [ main:26374 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:20:50 [ main:29534 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:35) response status code -->200
+2020-11-26 19:20:50 [ main:29594 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:41) respon json from API-->{"per_page":6,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://reqres.in/img/faces/1-image.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://reqres.in/img/faces/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://reqres.in/img/faces/3-image.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://reqres.in/img/faces/4-image.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://reqres.in/img/faces/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://reqres.in/img/faces/6-image.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}
+2020-11-26 19:20:51 [ main:29668 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:52) jsonObject:{"Transfer-Encoding":"chunked","Server":"cloudflare","CF-RAY":"5f8338f10d36146e-SEA","Access-Control-Allow-Origin":"*","Connection":"keep-alive","Date":"Thu, 26 Nov 2020 11:20:50 GMT","Via":"1.1 vegur","CF-Cache-Status":"HIT","Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"","Cache-Control":"max-age=14400","NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}","Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=Q%2BTo4gGCs0%2BPXerApFBWbMntMUs8agTsrqVPSvu4a0NU2rClDO9Wwme2qtWErfVYDlvjB4TrzhpnB4bQuG%2F5aUYhPUMGiZndNs4%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}","Set-Cookie":"__cfduid=d03328caf48a8a635eec5972a1f4dbdb11606389650; expires=Sat, 26-Dec-20 11:20:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure","Vary":"Accept-Encoding","Age":"6471","Content-Type":"application/json; charset=utf-8","X-Powered-By":"Express","cf-request-id":"06a5e1eaaa0000146e86884000000001","Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""}
+2020-11-26 19:20:51 [ main:29726 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:54) json:{
+  "Transfer-Encoding" : "chunked",
+  "Server" : "cloudflare",
+  "CF-RAY" : "5f8338f10d36146e-SEA",
+  "Access-Control-Allow-Origin" : "*",
+  "Connection" : "keep-alive",
+  "Date" : "Thu, 26 Nov 2020 11:20:50 GMT",
+  "Via" : "1.1 vegur",
+  "CF-Cache-Status" : "HIT",
+  "Etag" : "W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+  "Cache-Control" : "max-age=14400",
+  "NEL" : "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+  "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=Q%2BTo4gGCs0%2BPXerApFBWbMntMUs8agTsrqVPSvu4a0NU2rClDO9Wwme2qtWErfVYDlvjB4TrzhpnB4bQuG%2F5aUYhPUMGiZndNs4%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+  "Set-Cookie" : "__cfduid=d03328caf48a8a635eec5972a1f4dbdb11606389650; expires=Sat, 26-Dec-20 11:20:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+  "Vary" : "Accept-Encoding",
+  "Age" : "6471",
+  "Content-Type" : "application/json; charset=utf-8",
+  "X-Powered-By" : "Express",
+  "cf-request-id" : "06a5e1eaaa0000146e86884000000001",
+  "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 19:20:51 [ main:29770 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:55) jsonString��{
+	"Transfer-Encoding":"chunked",
+	"Server":"cloudflare",
+	"CF-RAY":"5f8338f10d36146e-SEA",
+	"Access-Control-Allow-Origin":"*",
+	"Connection":"keep-alive",
+	"Date":"Thu, 26 Nov 2020 11:20:50 GMT",
+	"Via":"1.1 vegur",
+	"CF-Cache-Status":"HIT",
+	"Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+	"Cache-Control":"max-age=14400",
+	"NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+	"Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=Q%2BTo4gGCs0%2BPXerApFBWbMntMUs8agTsrqVPSvu4a0NU2rClDO9Wwme2qtWErfVYDlvjB4TrzhpnB4bQuG%2F5aUYhPUMGiZndNs4%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+	"Set-Cookie":"__cfduid=d03328caf48a8a635eec5972a1f4dbdb11606389650; expires=Sat, 26-Dec-20 11:20:50 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+	"Vary":"Accept-Encoding",
+	"Age":"6471",
+	"Content-Type":"application/json; charset=utf-8",
+	"X-Powered-By":"Express",
+	"cf-request-id":"06a5e1eaaa0000146e86884000000001",
+	"Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 19:20:51 [ main:29851 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:33) uri:https://reqres.in/api/users?page=2
+2020-11-26 19:20:53 [ main:32168 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:35) {
+	"per_page":6,
+	"total":12,
+	"data":[
+		{
+			"last_name":"Lawson",
+			"id":7,
+			"avatar":"https://reqres.in/img/faces/7-image.jpg",
+			"first_name":"Michael",
+			"email":"michael.lawson@reqres.in"
+		},
+		{
+			"last_name":"Ferguson",
+			"id":8,
+			"avatar":"https://reqres.in/img/faces/8-image.jpg",
+			"first_name":"Lindsay",
+			"email":"lindsay.ferguson@reqres.in"
+		},
+		{
+			"last_name":"Funke",
+			"id":9,
+			"avatar":"https://reqres.in/img/faces/9-image.jpg",
+			"first_name":"Tobias",
+			"email":"tobias.funke@reqres.in"
+		},
+		{
+			"last_name":"Fields",
+			"id":10,
+			"avatar":"https://reqres.in/img/faces/10-image.jpg",
+			"first_name":"Byron",
+			"email":"byron.fields@reqres.in"
+		},
+		{
+			"last_name":"Edwards",
+			"id":11,
+			"avatar":"https://reqres.in/img/faces/11-image.jpg",
+			"first_name":"George",
+			"email":"george.edwards@reqres.in"
+		},
+		{
+			"last_name":"Howell",
+			"id":12,
+			"avatar":"https://reqres.in/img/faces/12-image.jpg",
+			"first_name":"Rachel",
+			"email":"rachel.howell@reqres.in"
+		}
+	],
+	"page":2,
+	"total_pages":2,
+	"support":{
+		"text":"To keep ReqRes free, contributions towards server costs are appreciated!",
+		"url":"https://reqres.in/#support-heading"
+	}
+}
+2020-11-26 19:20:53 [ main:32242 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:50) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 19:20:55 [ main:34359 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:53) {
+	"createdAt":"2020-11-26T11:20:55.093Z",
+	"name":"computer",
+	"id":"637",
+	"job":"IT"
+}
+2020-11-26 19:20:55 [ main:34367 ] - [ INFO ] utils.RestClient.post(RestClient.java:135) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 0,Chunked: false]
+2020-11-26 19:20:57 [ main:36536 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:68) respose:ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 80,Chunked: false]}
+2020-11-26 19:20:57 [ main:36555 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:70) {
+	"createdAt":"2020-11-26T11:20:57.237Z",
+	"name":"computer",
+	"id":"149",
+	"job":"IT"
+}
+2020-11-26 19:20:57 [ main:36580 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:88) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 19:21:00 [ main:38700 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:94) {
+	"name":"computer",
+	"job":"IT",
+	"updatedAt":"2020-11-26T11:20:59.363Z"
+}
+2020-11-26 19:21:01 [ main:40559 ] - [ INFO ] utils.HTTPUtilTest.deleteApiTest(restFulTest.java:107) statusCode:204
+2020-11-26 19:21:02 [ main:41369 ] - [ INFO ] work.WeWorkTest.testToken(WeWorkTest.java:24) token:rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:21:02 [ main:41416 ] - [ INFO ] work.WeWorkTest.TestGetToken(WeWorkTest.java:30) acces-Token:rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:21:02 [ main:41425 ] - [ INFO ] work.WeWorkTest.TestgetToken(WeWorkTest.java:35) rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:21:02 [ main:41440 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:11) work.WeworkConfig@65374526
+2020-11-26 19:21:02 [ main:41448 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:12) {dev={qyapi.weixin.qq.com=qyapi.weixin.qq.com}, test={qyapi.weixin.qq.com=140.207.127.79}}
+2020-11-26 19:21:02 [ main:41459 ] - [ INFO ] work.WeworkConfigTest.getInstance(WeworkConfigTest.java:16) work.WeworkConfig@6ceeb592
+2020-11-26 19:28:06 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:77) request:de.sstoehr.harreader.model.HarRequest@ba2671d3
+2020-11-26 19:28:06 [ main:8 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:92) method:post
+2020-11-26 19:28:10 [ main:3348 ] - [ INFO ] workweixin.DepartmentTest.TestFilePAth(DepartmentTest.java:41) {
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+2020-11-26 19:28:10 [ main:3397 ] - [ INFO ] workweixin.Department.All(Department.java:12) ��������
+2020-11-26 19:28:10 [ main:3400 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:10 [ main:3410 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:10 [ main:3420 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:11 [ main:4630 ] - [ INFO ] workweixin.DepartmentTest.TestAll(DepartmentTest.java:50) ��Ӧ�����{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}
+2020-11-26 19:28:11 [ main:4650 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:11 [ main:4655 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:11 [ main:4662 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:12 [ main:5891 ] - [ INFO ] workweixin.DepartmentTest.TestList(DepartmentTest.java:55) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606390092_54_fe3d5ca6e916952050c215557e3d79ae], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011",
+	"department":[]
+}
+2020-11-26 19:28:12 [ main:6079 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:12 [ main:6084 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:12 [ main:6095 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:14 [ main:7525 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:14 [ main:7530 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:14 [ main:7537 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:15 [ main:9012 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:15 [ main:9019 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:15 [ main:9029 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:16 [ main:9991 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:16 [ main:9995 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:16 [ main:10001 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:18 [ main:11279 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:18 [ main:11444 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:19 [ main:13023 ] - [ INFO ] workweixin.DepartmentTest.TestCreat(DepartmentTest.java:70) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606390099_54_36947c95cf38a4911b21950cf5da5477], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011"
+}
+2020-11-26 19:28:19 [ main:13090 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:19 [ main:13152 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:21 [ main:14418 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:21 [ main:14455 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:22 [ main:15930 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:22 [ main:15978 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:25 [ main:18689 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:25 [ main:18774 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:27 [ main:20354 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:27 [ main:20444 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:28 [ main:21619 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:28 [ main:21670 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:29 [ main:23247 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:30 [ main:23252 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:30 [ main:23261 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:31 [ main:24670 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:31 [ main:24691 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:32 [ main:26136 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:33 [ main:26371 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:34 [ main:28135 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:34 [ main:28141 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:34 [ main:28164 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:36 [ main:29416 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/update', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:28:36 [ main:29460 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:37 [ main:31138 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:28:37 [ main:31181 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:37 [ main:31196 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:39 [ main:32436 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:39 [ main:32474 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:40 [ main:33443 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:28:40 [ main:33450 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:28:43 [ main:37008 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:35) response status code -->200
+2020-11-26 19:28:43 [ main:37080 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:41) respon json from API-->{"per_page":6,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://reqres.in/img/faces/1-image.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://reqres.in/img/faces/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://reqres.in/img/faces/3-image.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://reqres.in/img/faces/4-image.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://reqres.in/img/faces/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://reqres.in/img/faces/6-image.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}
+2020-11-26 19:28:43 [ main:37164 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:52) jsonObject:{"Transfer-Encoding":"chunked","Server":"cloudflare","CF-RAY":"5f83447bad8979eb-SEA","Access-Control-Allow-Origin":"*","Connection":"keep-alive","Date":"Thu, 26 Nov 2020 11:28:42 GMT","Via":"1.1 vegur","CF-Cache-Status":"HIT","Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"","Cache-Control":"max-age=14400","NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}","Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=JgXcNTyURqfDfIlfBodlR%2FLWikyA0Yo9m07g7PAH8%2FmaWSaiPBPPJFaGWO7%2BgJYoc2FM9hvGAQMHc09tCOhbDefdvMQf2c8kQa0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}","Set-Cookie":"__cfduid=d7429d491efdf5b8f66c73c9721c0f32e1606390122; expires=Sat, 26-Dec-20 11:28:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure","Vary":"Accept-Encoding","Age":"6943","Content-Type":"application/json; charset=utf-8","X-Powered-By":"Express","cf-request-id":"06a5e92146000079eb7e824000000001","Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""}
+2020-11-26 19:28:44 [ main:37317 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:54) json:{
+  "Transfer-Encoding" : "chunked",
+  "Server" : "cloudflare",
+  "CF-RAY" : "5f83447bad8979eb-SEA",
+  "Access-Control-Allow-Origin" : "*",
+  "Connection" : "keep-alive",
+  "Date" : "Thu, 26 Nov 2020 11:28:42 GMT",
+  "Via" : "1.1 vegur",
+  "CF-Cache-Status" : "HIT",
+  "Etag" : "W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+  "Cache-Control" : "max-age=14400",
+  "NEL" : "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+  "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=JgXcNTyURqfDfIlfBodlR%2FLWikyA0Yo9m07g7PAH8%2FmaWSaiPBPPJFaGWO7%2BgJYoc2FM9hvGAQMHc09tCOhbDefdvMQf2c8kQa0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+  "Set-Cookie" : "__cfduid=d7429d491efdf5b8f66c73c9721c0f32e1606390122; expires=Sat, 26-Dec-20 11:28:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+  "Vary" : "Accept-Encoding",
+  "Age" : "6943",
+  "Content-Type" : "application/json; charset=utf-8",
+  "X-Powered-By" : "Express",
+  "cf-request-id" : "06a5e92146000079eb7e824000000001",
+  "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 19:28:44 [ main:37463 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:55) jsonString��{
+	"Transfer-Encoding":"chunked",
+	"Server":"cloudflare",
+	"CF-RAY":"5f83447bad8979eb-SEA",
+	"Access-Control-Allow-Origin":"*",
+	"Connection":"keep-alive",
+	"Date":"Thu, 26 Nov 2020 11:28:42 GMT",
+	"Via":"1.1 vegur",
+	"CF-Cache-Status":"HIT",
+	"Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+	"Cache-Control":"max-age=14400",
+	"NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+	"Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=JgXcNTyURqfDfIlfBodlR%2FLWikyA0Yo9m07g7PAH8%2FmaWSaiPBPPJFaGWO7%2BgJYoc2FM9hvGAQMHc09tCOhbDefdvMQf2c8kQa0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+	"Set-Cookie":"__cfduid=d7429d491efdf5b8f66c73c9721c0f32e1606390122; expires=Sat, 26-Dec-20 11:28:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+	"Vary":"Accept-Encoding",
+	"Age":"6943",
+	"Content-Type":"application/json; charset=utf-8",
+	"X-Powered-By":"Express",
+	"cf-request-id":"06a5e92146000079eb7e824000000001",
+	"Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 19:28:44 [ main:37582 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:33) uri:https://reqres.in/api/users?page=2
+2020-11-26 19:28:46 [ main:40137 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:35) {
+	"per_page":6,
+	"total":12,
+	"data":[
+		{
+			"last_name":"Lawson",
+			"id":7,
+			"avatar":"https://reqres.in/img/faces/7-image.jpg",
+			"first_name":"Michael",
+			"email":"michael.lawson@reqres.in"
+		},
+		{
+			"last_name":"Ferguson",
+			"id":8,
+			"avatar":"https://reqres.in/img/faces/8-image.jpg",
+			"first_name":"Lindsay",
+			"email":"lindsay.ferguson@reqres.in"
+		},
+		{
+			"last_name":"Funke",
+			"id":9,
+			"avatar":"https://reqres.in/img/faces/9-image.jpg",
+			"first_name":"Tobias",
+			"email":"tobias.funke@reqres.in"
+		},
+		{
+			"last_name":"Fields",
+			"id":10,
+			"avatar":"https://reqres.in/img/faces/10-image.jpg",
+			"first_name":"Byron",
+			"email":"byron.fields@reqres.in"
+		},
+		{
+			"last_name":"Edwards",
+			"id":11,
+			"avatar":"https://reqres.in/img/faces/11-image.jpg",
+			"first_name":"George",
+			"email":"george.edwards@reqres.in"
+		},
+		{
+			"last_name":"Howell",
+			"id":12,
+			"avatar":"https://reqres.in/img/faces/12-image.jpg",
+			"first_name":"Rachel",
+			"email":"rachel.howell@reqres.in"
+		}
+	],
+	"page":2,
+	"total_pages":2,
+	"support":{
+		"text":"To keep ReqRes free, contributions towards server costs are appreciated!",
+		"url":"https://reqres.in/#support-heading"
+	}
+}
+2020-11-26 19:28:47 [ main:40274 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:50) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 19:28:49 [ main:42692 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:53) {
+	"createdAt":"2020-11-26T11:28:48.722Z",
+	"name":"computer",
+	"id":"790",
+	"job":"IT"
+}
+2020-11-26 19:28:49 [ main:42703 ] - [ INFO ] utils.RestClient.post(RestClient.java:135) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 0,Chunked: false]
+2020-11-26 19:28:51 [ main:44757 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:68) respose:ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 78,Chunked: false]}
+2020-11-26 19:28:51 [ main:44775 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:70) {
+	"createdAt":"2020-11-26T11:28:50.832Z",
+	"name":"computer",
+	"id":"3",
+	"job":"IT"
+}
+2020-11-26 19:28:51 [ main:44784 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:88) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 19:28:53 [ main:46959 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:94) {
+	"name":"computer",
+	"job":"IT",
+	"updatedAt":"2020-11-26T11:28:52.987Z"
+}
+2020-11-26 19:28:55 [ main:49005 ] - [ INFO ] utils.HTTPUtilTest.deleteApiTest(restFulTest.java:107) statusCode:204
+2020-11-26 19:28:56 [ main:49908 ] - [ INFO ] work.WeWorkTest.testToken(WeWorkTest.java:24) token:rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:28:56 [ main:49997 ] - [ INFO ] work.WeWorkTest.TestGetToken(WeWorkTest.java:30) acces-Token:rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:28:56 [ main:50064 ] - [ INFO ] work.WeWorkTest.TestgetToken(WeWorkTest.java:35) rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:28:56 [ main:50079 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:11) work.WeworkConfig@46e388ec
+2020-11-26 19:28:56 [ main:50116 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:12) {dev={qyapi.weixin.qq.com=qyapi.weixin.qq.com}, test={qyapi.weixin.qq.com=140.207.127.79}}
+2020-11-26 19:28:56 [ main:50126 ] - [ INFO ] work.WeworkConfigTest.getInstance(WeworkConfigTest.java:16) work.WeworkConfig@45707f76
+2020-11-26 19:39:52 [ main:0 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:77) request:de.sstoehr.harreader.model.HarRequest@e68d2fdf
+2020-11-26 19:39:52 [ main:7 ] - [ INFO ] workweixin.Api.getApiFromHar(Api.java:92) method:post
+2020-11-26 19:39:55 [ main:3054 ] - [ INFO ] workweixin.DepartmentTest.TestFilePAth(DepartmentTest.java:41) {
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+2020-11-26 19:39:55 [ main:3144 ] - [ INFO ] workweixin.Department.All(Department.java:12) ��������
+2020-11-26 19:39:55 [ main:3147 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:39:55 [ main:3154 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:39:55 [ main:3165 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:39:56 [ main:4580 ] - [ INFO ] workweixin.DepartmentTest.TestAll(DepartmentTest.java:50) ��Ӧ�����{
+	"errcode":0,
+	"errmsg":"ok",
+	"department":[
+		{
+			"name":"testhome1234",
+			"id":33,
+			"parentid":1,
+			"order":100160000
+		},
+		{
+			"name":"ningningCenterdd",
+			"id":39,
+			"parentid":33,
+			"order":0
+		}
+	]
+}
+2020-11-26 19:39:56 [ main:4592 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:39:56 [ main:4597 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:39:56 [ main:4606 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:39:58 [ main:6550 ] - [ INFO ] workweixin.DepartmentTest.TestList(DepartmentTest.java:55) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606390798_54_980ebf264ea9eccf78d1dd7cb204d738], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011",
+	"department":[]
+}
+2020-11-26 19:39:58 [ main:6734 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:39:58 [ main:6741 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:39:58 [ main:6752 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:00 [ main:7984 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:40:00 [ main:7996 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:00 [ main:8034 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:01 [ main:9256 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:40:01 [ main:9262 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:01 [ main:9302 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:02 [ main:10464 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:40:02 [ main:10470 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:02 [ main:10478 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:03 [ main:11626 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:04 [ main:11774 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:05 [ main:13068 ] - [ INFO ] workweixin.DepartmentTest.TestCreat(DepartmentTest.java:70) result:{
+	"errcode":60011,
+	"errmsg":"no privilege to access/modify contact/party/agent , hint: [1606390804_54_5f6c5a4fec1e8c737c3c46c6ab4f5b97], from ip: 58.247.101.198, more info at https://open.work.weixin.qq.com/devtool/query?e=60011"
+}
+2020-11-26 19:40:05 [ main:13099 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:05 [ main:13180 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:06 [ main:14540 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:06 [ main:14610 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:07 [ main:15532 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:07 [ main:15554 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:09 [ main:16943 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:09 [ main:17000 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:10 [ main:18376 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:10 [ main:18446 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:11 [ main:19692 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:11 [ main:19725 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:13 [ main:21056 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:40:13 [ main:21060 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:13 [ main:21070 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:14 [ main:22395 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:14 [ main:22402 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:15 [ main:23724 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/create', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:16 [ main:23825 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:17 [ main:25213 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:40:17 [ main:25218 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:17 [ main:25224 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:18 [ main:26450 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/update', method='post', headers=null, query=null, body='null'}
+2020-11-26 19:40:18 [ main:26476 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:19 [ main:27685 ] - [ INFO ] workweixin.Department.list(Department.java:22) ����list
+2020-11-26 19:40:19 [ main:27693 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/list', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:19 [ main:27706 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:21 [ main:28974 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:21 [ main:29004 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:22 [ main:30236 ] - [ INFO ] workweixin.Restful.getApiFromYaml(Restful.java:32) restful:Restful{url='https://qyapi.weixin.qq.com/cgi-bin/department/delete', method='get', headers=null, query={id=}, body='null'}
+2020-11-26 19:40:22 [ main:30275 ] - [ INFO ] workweixin.Api.updateUrl(Api.java:175) ��ǰ����hosts:{qyapi.weixin.qq.com=qyapi.weixin.qq.com}
+2020-11-26 19:40:26 [ main:34046 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:35) response status code -->200
+2020-11-26 19:40:26 [ main:34160 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:41) respon json from API-->{"per_page":6,"total":12,"data":[{"last_name":"Bluth","id":1,"avatar":"https://reqres.in/img/faces/1-image.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://reqres.in/img/faces/2-image.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://reqres.in/img/faces/3-image.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://reqres.in/img/faces/4-image.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://reqres.in/img/faces/5-image.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://reqres.in/img/faces/6-image.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2,"support":{"text":"To keep ReqRes free, contributions towards server costs are appreciated!","url":"https://reqres.in/#support-heading"}}
+2020-11-26 19:40:26 [ main:34236 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:52) jsonObject:{"Transfer-Encoding":"chunked","Server":"cloudflare","CF-RAY":"5f8355a34ca1f579-SEA","Access-Control-Allow-Origin":"*","Connection":"keep-alive","Date":"Thu, 26 Nov 2020 11:40:25 GMT","Via":"1.1 vegur","CF-Cache-Status":"HIT","Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"","Cache-Control":"max-age=14400","NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}","Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=8kvB1ZiqzRaZLc%2B1VUJOedH4EhnoEj%2BNRes61jHZ7jUgq7G2QLhhzi4RpHABCbZu5Be9fv5mHZi0bwCs9xfoRsaCFa7rdz4gXwY%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}","Set-Cookie":"__cfduid=de092ffb0a252f9702acc561e967364df1606390825; expires=Sat, 26-Dec-20 11:40:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure","Vary":"Accept-Encoding","Age":"437","Content-Type":"application/json; charset=utf-8","X-Powered-By":"Express","cf-request-id":"06a5f3da0b0000f579cb870000000001","Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""}
+2020-11-26 19:40:26 [ main:34276 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:54) json:{
+  "Transfer-Encoding" : "chunked",
+  "Server" : "cloudflare",
+  "CF-RAY" : "5f8355a34ca1f579-SEA",
+  "Access-Control-Allow-Origin" : "*",
+  "Connection" : "keep-alive",
+  "Date" : "Thu, 26 Nov 2020 11:40:25 GMT",
+  "Via" : "1.1 vegur",
+  "CF-Cache-Status" : "HIT",
+  "Etag" : "W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+  "Cache-Control" : "max-age=14400",
+  "NEL" : "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+  "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=8kvB1ZiqzRaZLc%2B1VUJOedH4EhnoEj%2BNRes61jHZ7jUgq7G2QLhhzi4RpHABCbZu5Be9fv5mHZi0bwCs9xfoRsaCFa7rdz4gXwY%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+  "Set-Cookie" : "__cfduid=de092ffb0a252f9702acc561e967364df1606390825; expires=Sat, 26-Dec-20 11:40:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+  "Vary" : "Accept-Encoding",
+  "Age" : "437",
+  "Content-Type" : "application/json; charset=utf-8",
+  "X-Powered-By" : "Express",
+  "cf-request-id" : "06a5f3da0b0000f579cb870000000001",
+  "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 19:40:26 [ main:34331 ] - [ INFO ] utils.RestClient.getDefault(RestClient.java:55) jsonString��{
+	"Transfer-Encoding":"chunked",
+	"Server":"cloudflare",
+	"CF-RAY":"5f8355a34ca1f579-SEA",
+	"Access-Control-Allow-Origin":"*",
+	"Connection":"keep-alive",
+	"Date":"Thu, 26 Nov 2020 11:40:25 GMT",
+	"Via":"1.1 vegur",
+	"CF-Cache-Status":"HIT",
+	"Etag":"W/\"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8\"",
+	"Cache-Control":"max-age=14400",
+	"NEL":"{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+	"Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=8kvB1ZiqzRaZLc%2B1VUJOedH4EhnoEj%2BNRes61jHZ7jUgq7G2QLhhzi4RpHABCbZu5Be9fv5mHZi0bwCs9xfoRsaCFa7rdz4gXwY%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+	"Set-Cookie":"__cfduid=de092ffb0a252f9702acc561e967364df1606390825; expires=Sat, 26-Dec-20 11:40:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure",
+	"Vary":"Accept-Encoding",
+	"Age":"437",
+	"Content-Type":"application/json; charset=utf-8",
+	"X-Powered-By":"Express",
+	"cf-request-id":"06a5f3da0b0000f579cb870000000001",
+	"Expect-CT":"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+}
+2020-11-26 19:40:26 [ main:34397 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:33) uri:https://reqres.in/api/users?page=2
+2020-11-26 19:40:28 [ main:36312 ] - [ INFO ] utils.HTTPUtilTest.Testget(restFulTest.java:35) {
+	"per_page":6,
+	"total":12,
+	"data":[
+		{
+			"last_name":"Lawson",
+			"id":7,
+			"avatar":"https://reqres.in/img/faces/7-image.jpg",
+			"first_name":"Michael",
+			"email":"michael.lawson@reqres.in"
+		},
+		{
+			"last_name":"Ferguson",
+			"id":8,
+			"avatar":"https://reqres.in/img/faces/8-image.jpg",
+			"first_name":"Lindsay",
+			"email":"lindsay.ferguson@reqres.in"
+		},
+		{
+			"last_name":"Funke",
+			"id":9,
+			"avatar":"https://reqres.in/img/faces/9-image.jpg",
+			"first_name":"Tobias",
+			"email":"tobias.funke@reqres.in"
+		},
+		{
+			"last_name":"Fields",
+			"id":10,
+			"avatar":"https://reqres.in/img/faces/10-image.jpg",
+			"first_name":"Byron",
+			"email":"byron.fields@reqres.in"
+		},
+		{
+			"last_name":"Edwards",
+			"id":11,
+			"avatar":"https://reqres.in/img/faces/11-image.jpg",
+			"first_name":"George",
+			"email":"george.edwards@reqres.in"
+		},
+		{
+			"last_name":"Howell",
+			"id":12,
+			"avatar":"https://reqres.in/img/faces/12-image.jpg",
+			"first_name":"Rachel",
+			"email":"rachel.howell@reqres.in"
+		}
+	],
+	"page":2,
+	"total_pages":2,
+	"support":{
+		"text":"To keep ReqRes free, contributions towards server costs are appreciated!",
+		"url":"https://reqres.in/#support-heading"
+	}
+}
+2020-11-26 19:40:28 [ main:36369 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:50) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 19:40:30 [ main:38592 ] - [ INFO ] utils.HTTPUtilTest.TestPost(restFulTest.java:53) {
+	"createdAt":"2020-11-26T11:40:30.134Z",
+	"name":"computer",
+	"id":"396",
+	"job":"IT"
+}
+2020-11-26 19:40:30 [ main:38605 ] - [ INFO ] utils.RestClient.post(RestClient.java:135) formEntity:[Content-Type: application/x-www-form-urlencoded,Content-Length: 0,Chunked: false]
+2020-11-26 19:40:33 [ main:41439 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:68) respose:ResponseEntityProxy{[Content-Type: application/json; charset=utf-8,Content-Length: 80,Chunked: false]}
+2020-11-26 19:40:33 [ main:41458 ] - [ INFO ] utils.HTTPUtilTest.TestPostMap(restFulTest.java:70) {
+	"createdAt":"2020-11-26T11:40:32.957Z",
+	"name":"computer",
+	"id":"395",
+	"job":"IT"
+}
+2020-11-26 19:40:33 [ main:41484 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:88) jsonString:{"name":"computer","job":"IT"}
+2020-11-26 19:40:36 [ main:43913 ] - [ INFO ] utils.HTTPUtilTest.TestPut(restFulTest.java:94) {
+	"name":"computer",
+	"job":"IT",
+	"updatedAt":"2020-11-26T11:40:35.200Z"
+}
+2020-11-26 19:40:38 [ main:45886 ] - [ INFO ] utils.HTTPUtilTest.deleteApiTest(restFulTest.java:107) statusCode:204
+2020-11-26 19:40:39 [ main:46818 ] - [ INFO ] work.WeWorkTest.testToken(WeWorkTest.java:24) token:rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:40:39 [ main:46872 ] - [ INFO ] work.WeWorkTest.TestGetToken(WeWorkTest.java:30) acces-Token:rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:40:39 [ main:46884 ] - [ INFO ] work.WeWorkTest.TestgetToken(WeWorkTest.java:35) rw9yn10jfTaqWkb1PbFh2SPu9lEfxr5Ni8bkqaaosPWM1CVGG7_rRC7OCZNl3E4RI_FetfngtaptwxdWg-ywNMryba3vLpX5bs8vGOjnhhadGzSST6JcNnDKVPeKNqfGUk1icnlbKrKIdkbWJRxkJ6gM5abTNRPCPtWeTQkEgyO8us8c8TO9vrAHpO5a-TlghjRwZ4g_T9R8zYktzSE7rw
+2020-11-26 19:40:39 [ main:46897 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:11) work.WeworkConfig@5f80b25a
+2020-11-26 19:40:39 [ main:46931 ] - [ INFO ] work.WeworkConfigTest.TestLoad(WeworkConfigTest.java:12) {dev={qyapi.weixin.qq.com=qyapi.weixin.qq.com}, test={qyapi.weixin.qq.com=140.207.127.79}}
+2020-11-26 19:40:39 [ main:46939 ] - [ INFO ] work.WeworkConfigTest.getInstance(WeworkConfigTest.java:16) work.WeworkConfig@5b476930

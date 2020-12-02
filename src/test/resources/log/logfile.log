@@ -1,0 +1,12 @@
+2020-12-02 11:15:32 [ main:0 ] - [ INFO ] TestNg.TestDepend.Testlogin(TestDepend.java:12) 测试登录失败
+2020-12-02 11:18:58 [ main:0 ] - [ INFO ] TestNg.TestDepend.TestPayOrder(TestDepend.java:18) 登陆成功---可以支付购买物品
+2020-12-02 14:45:35 [ main:0 ] - [ INFO ] Listener.TestListenner.onTestStart(TestListenner.java:12) 用例启动。[TestResult name=TestAssert status=STARTED method=TestAssert.TestAssert()[pri:0, instance:TestNg.TestAssert@7692d9cc] output={null}]
+2020-12-02 14:45:35 [ main:167 ] - [ INFO ] Listener.TestListenner.onTestFailure(TestListenner.java:22) 用例运行失败，启动截图。
+2020-12-02 14:45:35 [ main:181 ] - [ INFO ] Listener.TestListenner.onTestStart(TestListenner.java:12) 用例启动。[TestResult name=TestAssertFour status=STARTED method=TestAssert.TestAssertFour()[pri:0, instance:TestNg.TestAssert@7692d9cc] output={null}]
+2020-12-02 14:45:35 [ main:187 ] - [ INFO ] Listener.TestListenner.onTestSuccess(TestListenner.java:17) 用例执行成功，[TestResult name=TestAssertFour status=SUCCESS method=TestAssert.TestAssertFour()[pri:0, instance:TestNg.TestAssert@7692d9cc] output={null}]
+2020-12-02 14:45:35 [ main:190 ] - [ INFO ] Listener.TestListenner.onTestStart(TestListenner.java:12) 用例启动。[TestResult name=TestAssertThree status=STARTED method=TestAssert.TestAssertThree()[pri:0, instance:TestNg.TestAssert@7692d9cc] output={null}]
+2020-12-02 14:45:35 [ main:193 ] - [ INFO ] Listener.TestListenner.onTestSuccess(TestListenner.java:17) 用例执行成功，[TestResult name=TestAssertThree status=SUCCESS method=TestAssert.TestAssertThree()[pri:0, instance:TestNg.TestAssert@7692d9cc] output={null}]
+2020-12-02 14:45:35 [ main:198 ] - [ INFO ] Listener.TestListenner.onTestStart(TestListenner.java:12) 用例启动。[TestResult name=TestAssertW status=STARTED method=TestAssert.TestAssertW()[pri:0, instance:TestNg.TestAssert@7692d9cc] output={null}]
+2020-12-02 14:45:35 [ main:202 ] - [ INFO ] Listener.TestListenner.onTestFailure(TestListenner.java:22) 用例运行失败，启动截图。
+2020-12-02 14:45:35 [ main:208 ] - [ INFO ] Listener.TestListenner.onTestStart(TestListenner.java:12) 用例启动。[TestResult name=TestAssertnew status=STARTED method=TestAssert.TestAssertnew()[pri:0, instance:TestNg.TestAssert@7692d9cc] output={null}]
+2020-12-02 14:45:35 [ main:219 ] - [ INFO ] Listener.TestListenner.onTestFailure(TestListenner.java:22) 用例运行失败，启动截图。

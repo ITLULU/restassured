@@ -1,0 +1,93 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 52.667 s <<< FAILURE! - in TestSuite
+listApp(devtols.AppTest)  Time elapsed: 4.129 s  <<< FAILURE!
+java.lang.NullPointerException
+	at devtols.AppTest.listApp(AppTest.java:10)
+
+TestList(workweixin.DepartmentTest)  Time elapsed: 1.317 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path department doesn't match.
+Expected: a collection containing "testhome1234"
+  Actual: []
+
+	at workweixin.DepartmentTest.TestList(DepartmentTest.java:56)
+
+TestCreat(workweixin.DepartmentTest)  Time elapsed: 2.017 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.TestCreat(DepartmentTest.java:71)
+
+createByMap(workweixin.DepartmentTest)  Time elapsed: 1.534 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.createByMap(DepartmentTest.java:81)
+
+createWithChinese(workweixin.DepartmentTest)  Time elapsed: 1.813 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.createWithChinese(DepartmentTest.java:85)
+
+createWithCSV(workweixin.DepartmentTest)  Time elapsed: 2.181 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.createWithCSV(DepartmentTest.java:97)
+
+createWithCSV(workweixin.DepartmentTest)  Time elapsed: 1.813 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.createWithCSV(DepartmentTest.java:97)
+
+createWithCSV(workweixin.DepartmentTest)  Time elapsed: 1.335 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.createWithCSV(DepartmentTest.java:97)
+
+delete(workweixin.DepartmentTest)  Time elapsed: 3.548 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.delete(DepartmentTest.java:117)
+
+update(workweixin.DepartmentTest)  Time elapsed: 4.774 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 60011
+
+	at workweixin.DepartmentTest.update(DepartmentTest.java:128)
+
+updateAll(workweixin.DepartmentTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException
+	at workweixin.DepartmentTest.updateAll(DepartmentTest.java:135)
+
